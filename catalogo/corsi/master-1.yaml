@@ -1,0 +1,14 @@
+id: master-1
+titolo: Master eLife 1
+sottotitolo: Il modello della Tripnosi per superare il disagio, evolvere e supportare gli altri
+famiglia: master
+ordine: 10
+durataGiorni: 3
+includeConsulenza: false
+docenti: [andrea-cirelli]
+abstract: >-
+  Primo dei tre master della scuola. Si frequenta all'interno del percorso
+  annuale, non si vende singolarmente.
+daConfermare:
+  - Se esista un prezzo per la frequenza singola, fuori dai percorsi
+  - Descrizione estesa e programma

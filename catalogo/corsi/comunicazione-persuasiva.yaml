@@ -1,0 +1,42 @@
+id: comunicazione-persuasiva
+titolo: Comunicazione persuasiva e gestione del conflitto
+famiglia: corso
+ordine: 8
+durataGiorni: 2
+prezzo:
+  pieno: 560
+  early: 440
+includeConsulenza: true
+docenti: [andrea-cirelli]
+abstract: >-
+  Costruire una comunicazione capace di coinvolgere e negoziare, e disinnescare
+  il conflitto prima che si irrigidisca.
+descrizione: |
+  Persuadere non significa convincere qualcuno a fare ciò che non vuole. Significa
+  creare le condizioni perché l'altro possa muoversi, perché senta che ciò che gli
+  stai proponendo ha a che fare con un suo bisogno reale.
+
+  La differenza fra le due cose è netta, e si vede nel tempo: la manipolazione
+  ottiene un sì che poi si ritira, la persuasione costruisce un accordo che regge.
+
+  Nella seconda parte del corso ci occupiamo di ciò che succede quando l'accordo
+  non arriva. Il conflitto non è un incidente della relazione, ne è una fase
+  fisiologica: il problema non è evitarlo, è saperlo attraversare senza che
+  distrugga il rapporto. Vedremo come si riconosce l'escalation prima che diventi
+  irreversibile, come si esce da una posizione irrigidita senza perdere la faccia,
+  e come si negozia con chi non vuole negoziare.
+obiettivi:
+  - Costruire messaggi che poggiano sui bisogni reali dell'interlocutore
+  - Riconoscere e disinnescare le resistenze prima che si strutturino
+  - Distinguere il conflitto di merito da quello di relazione
+  - Gestire l'escalation e riportare il confronto su un terreno praticabile
+  - Negoziare mantenendo la relazione, non solo l'obiettivo
+programma:
+  - Le leve della persuasione nell'approccio analogico e in quello strategico
+  - Il dialogo strategico applicato alla negoziazione
+  - Costruzione del consenso per gradi
+  - Anatomia di un conflitto - innesco, escalation, punto di non ritorno
+  - Uscire da una posizione irrigidita
+  - Simulazioni di trattativa e di confronto difficile
+daConfermare:
+  - Descrizione da validare

@@ -1,0 +1,27 @@
+id: coach-di-te-stesso
+titolo: Diventa coach di te stesso
+sottotitolo: Percorso annuale nella scuola di Tripnosi
+ordine: 1
+durata: annuale
+prezzo:
+  pieno: 3350
+comprende:
+  corsi:
+    - linguaggio-inconscio
+    - tipologie-umane-1
+    - tipologie-umane-2
+    - tripnosi-tre-livelli
+    - comunicazione-persuasiva
+    - parlare-in-pubblico
+  master:
+    - master-1
+    - master-2
+descrizione: |
+  Il percorso annuale comprende l'intero ciclo dei corsi della scuola e i primi due
+  Master eLife. È dedicato a chi vuole acquisire il metodo per sé: riconoscere i
+  propri automatismi, gestire autonomamente emozioni e relazioni, usare il Viaggio
+  Interiore Guidato senza doverne dipendere.
+daConfermare:
+  - Se i due workshop porta siano compresi nel percorso
+  - Il workshop intro è compreso?
+  - "Piano rateale: quante rate e con quale anticipo"

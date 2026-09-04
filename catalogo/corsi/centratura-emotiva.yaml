@@ -1,0 +1,46 @@
+id: centratura-emotiva
+titolo: La centratura emotiva
+sottotitolo: L'alleato interiore in azione
+famiglia: workshop-porta
+ordine: 2
+durataGiorni: 1
+prezzo:
+  pieno: 280
+  early: 220
+includeConsulenza: true
+porta: se
+docenti: []
+abstract: >-
+  Prima porta — ottieni il meglio da te. Dopo aver incontrato il tuo alleato
+  interiore, il viaggio continua verso una centratura emotiva stabile.
+descrizione: |
+  Approfondirai la relazione con il tuo inconscio e imparerai a utilizzare con
+  sempre maggiore autonomia il Viaggio Interiore Guidato.
+
+  Partiremo da una domanda fondamentale: quanto sei realmente centrato oggi?
+  Esplorerai come si è costruito nel tempo il rapporto con il tuo mondo interiore,
+  quanto le esperienze del passato continuano ad agire nel presente e quali
+  automatismi, resistenze e meccanismi di difesa possono ancora interferire con il
+  tuo equilibrio emotivo.
+
+  Attraverso l'approccio costruttivista-strategico della Tripnosi lavorerai sui
+  circoli viziosi che mantengono una condizione indesiderata e sperimenterai
+  stratagemmi mentali personalizzati per superare le resistenze, prevenire gli
+  autosabotaggi e favorire un maggiore allineamento tra mente conscia e inconscia.
+
+  L'obiettivo è passare dall'aver incontrato il proprio alleato interiore al saperlo
+  coinvolgere attivamente nella propria vita.
+programma:
+  - "Quanto sei centrato? Valutazione della propria condizione di allineamento emotivo"
+  - Come si è costruito il rapporto con il tuo inconscio nel tempo
+  - "Il passato nel presente: riconoscere ciò che continua ad agire nella tua vita"
+  - "Autogestire il Viaggio Interiore: maggiore autonomia nel dialogo con il proprio alleato interiore"
+  - "Resistenze inconsce e autosabotaggi: riconoscerli e superarli con stratagemmi personalizzati"
+  - Sbloccare i circoli viziosi nella relazione con se stessi, con gli altri e con il mondo
+  - "Rieducare il sistema di nutrimento emotivo"
+  - Sblocchi personalizzati in piccoli gruppi
+  - "Cenni di Entanglement: dalla centratura individuale a livelli più profondi di interconnessione"
+daConfermare:
+  - Conferma che il workshop entri nel calendario
+  - Docente
+  - Cosa comprende esattamente la consulenza inclusa

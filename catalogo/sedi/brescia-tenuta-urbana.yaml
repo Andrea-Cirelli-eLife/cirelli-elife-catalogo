@@ -1,0 +1,15 @@
+id: brescia-tenuta-urbana
+nome: Tenuta Urbana
+indirizzo: via Romiglia 6
+cap: "25124"
+citta: Brescia
+provincia: BS
+comeArrivare: >-
+  Nell'area agricola dietro la Fondazione Poliambulanza, con parcheggio interno.
+  Fermata metropolitana Poliambulanza a pochi passi, uscita autostradale Brescia Centro.
+telefono: "030 535 6785"
+email: info@tenutaurbana.it
+sito: https://www.tenutaurbana.it
+daConfermare:
+  - Sala prenotata
+  - Dettagli del servizio pranzo

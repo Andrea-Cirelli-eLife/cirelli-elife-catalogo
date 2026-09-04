@@ -1,0 +1,41 @@
+id: workshop-intro
+titolo: "Tripnosi: incontra il tuo alleato interiore"
+sottotitolo: Inizia il viaggio
+famiglia: workshop-intro
+ordine: 1
+durataGiorni: 1
+durataNota: Una giornata, oppure format introduttivo di una serata (un'ora e mezza)
+prezzo:
+  pieno: 150
+  early: 100
+includeConsulenza: false
+porta: null
+docenti: [andrea-cirelli]
+abstract: >-
+  Giornata esperienziale con il dottor Andrea Cirelli e il suo staff: il primo
+  incontro con il metodo della Tripnosi e con il proprio mondo interiore.
+descrizione: |
+  Sai che esistono tecniche non convenzionali che permettono di sbloccare in pochi
+  minuti un disagio emotivo che vivi con te stesso e nella relazione con gli altri,
+  di aprire nuovi orizzonti nella qualità della vita e nel successo delle relazioni
+  private e professionali, di accedere a risorse sconosciute e inespresse della mente?
+
+  Vivi in prima persona il metodo della Tripnosi per ottenere il meglio da te stesso
+  e dagli altri.
+
+  Nella prima parte della giornata scoprirai stratagemmi mentali controintuitivi
+  personalizzati e sperimenterai l'accesso al tuo mondo interiore. Farai esperienza
+  della rivoluzionaria procedura del negoziato con l'inconscio, percependo il
+  cambiamento e il benessere che chiedi, in tempo reale.
+
+  Nella seconda parte prenderemo in esame la relazione con l'altro: inizierai a
+  comprendere come applicare sia gli stratagemmi mentali sia il negoziato con
+  l'inconscio dell'interlocutore, per relazioni immediatamente più profonde e autentiche.
+obiettivi:
+  - Sbloccare in pochi minuti un disagio emotivo con se stessi e con gli altri
+  - Aprire nuovi orizzonti nella qualità della vita e nelle relazioni
+  - Accedere a risorse sconosciute e inespresse della mente
+daConfermare:
+  - >-
+    Rapporto con il pacchetto "Viaggio Interiore Guidato": stesso prodotto o
+    pacchetto distinto?

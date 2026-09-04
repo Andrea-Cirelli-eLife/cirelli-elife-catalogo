@@ -1,0 +1,14 @@
+id: master-2
+titolo: Master eLife 2
+sottotitolo: Il modello della Tripnosi per superare il disagio, potenziarsi e supportare gli altri
+famiglia: master
+ordine: 11
+durataGiorni: 3
+includeConsulenza: false
+prerequisiti: [master-1]
+docenti: [andrea-cirelli]
+abstract: >-
+  Secondo master della scuola, compreso nel percorso annuale.
+daConfermare:
+  - Se esista un prezzo per la frequenza singola, fuori dai percorsi
+  - Se "Master eLife 1" sia prerequisito formale

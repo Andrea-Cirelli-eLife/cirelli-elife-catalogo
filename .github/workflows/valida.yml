@@ -1,0 +1,45 @@
+name: Valida catalogo
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  valida:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - name: Controllo dei tipi
+        run: npm run typecheck
+      - name: Validazione del catalogo
+        run: npm run valida
+
+  # Quando il catalogo cambia i due siti vanno ricostruiti. I segreti sono i
+  # Deploy Hook dei progetti Cloudflare Pages; finché non ci sono, i passi si
+  # saltano invece di far fallire il workflow.
+  propaga:
+    needs: valida
+    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+    runs-on: ubuntu-latest
+    env:
+      HOOK_CIRELLI: ${{ secrets.DEPLOY_HOOK_ANDREACIRELLI }}
+      HOOK_ELIFE: ${{ secrets.DEPLOY_HOOK_ELIFELAB }}
+    steps:
+      - name: Ricostruisci andreacirelli.it
+        if: env.HOOK_CIRELLI != ''
+        run: curl -fsS -X POST "$HOOK_CIRELLI"
+
+      - name: Ricostruisci elifelab.it
+        if: env.HOOK_ELIFE != ''
+        run: curl -fsS -X POST "$HOOK_ELIFE"
+
+      - name: Nessun hook configurato
+        if: env.HOOK_CIRELLI == '' && env.HOOK_ELIFE == ''
+        run: echo "::notice::Nessun Deploy Hook configurato: i siti non sono stati ricostruiti."

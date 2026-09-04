@@ -1,0 +1,14 @@
+id: master-3
+titolo: Master eLife 3
+sottotitolo: Il modello della Tripnosi per il Life Coaching
+famiglia: master
+ordine: 12
+durataGiorni: 4
+includeConsulenza: false
+prerequisiti: [master-1, master-2]
+docenti: [andrea-cirelli]
+abstract: >-
+  Terzo master, accessibile dopo il conseguimento di Master eLife 1 e 2.
+  Compreso nel percorso biennale.
+daConfermare:
+  - Se esista un prezzo per la frequenza singola, fuori dai percorsi

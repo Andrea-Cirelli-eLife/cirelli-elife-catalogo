@@ -1,0 +1,38 @@
+id: tipologie-umane-1
+titolo: Le tipologie umane 1
+sottotitolo: Scopri in tempo reale le caratteristiche della tua e dell'altrui personalità
+famiglia: corso
+ordine: 5
+durataGiorni: 2
+prezzo:
+  pieno: 560
+  early: 440
+includeConsulenza: true
+docenti: [andrea-cirelli]
+abstract: >-
+  Le tre forme caratteriali dell'approccio analogico — asta, triangolo, cerchio —
+  e i segnali che rivelano come ciascuna comunica, reagisce ed entra in relazione.
+descrizione: |
+  «Conosci te stesso»: un invito che attraversa i secoli. Per rispondere sono nate
+  numerose teorie, dalla psicoanalisi alle tecniche comportamentali moderne. Oggi
+  esiste una strada nuova, semplice e immediatamente applicabile, basata sulle
+  scoperte dell'approccio analogico di Stefano Benemeglio: un metodo intuitivo ma
+  straordinariamente efficace nel leggere le dinamiche profonde della personalità.
+
+  Scoprirai le tre principali forme caratteriali — asta (conflittuale padre),
+  triangolo (conflittuale madre) e cerchio (conflittuale ego) — imparando a leggerne
+  i segnali non verbali, le parole, gli atteggiamenti e i comportamenti.
+obiettivi:
+  - Riconoscere rapidamente la propria tipologia analogica e quella dell'interlocutore
+  - Comprendere le dinamiche emotive sottostanti ai comportamenti
+  - Adattare il proprio stile comunicativo in modo strategico e naturale
+  - Prevenire contrasti, incomprensioni e conflitti relazionali
+  - Comunicare con maggiore sicurezza, efficacia e consapevolezza
+programma:
+  - La lettura dei segnali non verbali
+  - L'analisi dei gesti e dei comportamenti
+  - L'ascolto di specifiche parole ed espressioni linguistiche
+  - "Prossemica: la gestione dello spazio"
+  - "Cinesica: gesti e segni"
+  - "Digitale: contatto e toccamenti"
+  - "Paralinguistica: voce, tono e suoni"

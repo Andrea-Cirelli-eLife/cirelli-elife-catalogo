@@ -1,0 +1,44 @@
+id: parlare-in-pubblico
+titolo: Parlare in pubblico nell'approccio eLife
+famiglia: corso
+ordine: 9
+durataGiorni: 2
+prezzo:
+  pieno: 560
+  early: 440
+includeConsulenza: true
+docenti: [andrea-cirelli]
+abstract: >-
+  Il public speaking letto con gli strumenti della comunicazione analogica:
+  non solo cosa dire, ma come il pubblico lo riceve a livello inconscio.
+descrizione: |
+  Chi ascolta non riceve soltanto le parole. Riceve la postura, il ritmo, le pause,
+  la direzione dello sguardo, la gestione dello spazio — tutto ciò che
+  nell'approccio analogico chiamiamo comunicazione non verbale, e che arriva prima
+  del contenuto e lo condiziona.
+
+  Questo corso non insegna a costruire una presentazione. Insegna a stare davanti a
+  un gruppo di persone e a governare ciò che accade nella sala: come si conquista
+  l'attenzione nei primi trenta secondi, come si riconosce dal vivo che il pubblico
+  si sta staccando e cosa si fa in quel momento, come si gestisce una domanda ostile
+  senza irrigidirsi.
+
+  C'è poi il tema dell'ansia da esposizione, che non si risolve con i consigli. La
+  affrontiamo per quello che è: una reazione dell'inconscio percettivo-reattivo,
+  su cui il metodo ha strumenti specifici.
+obiettivi:
+  - Governare l'attenzione di una sala, non solo esporre un contenuto
+  - Usare consapevolmente prossemica, cinesica e paralinguistica davanti a un gruppo
+  - Riconoscere in tempo reale i segnali di calo e di dissenso del pubblico
+  - Gestire domande difficili e interlocutori ostili
+  - Ridurre l'ansia da esposizione lavorando sulla sua origine
+programma:
+  - I primi trenta secondi - come si apre e perché contano
+  - I quattro canali analogici applicati alla platea
+  - Leggere la sala mentre si parla
+  - Struttura di un intervento che regge l'attenzione
+  - Domande, obiezioni e interlocutori ostili
+  - Ansia da esposizione - stratagemmi e lavoro sull'origine
+  - Esercitazioni con ripresa video e restituzione
+daConfermare:
+  - Descrizione da validare

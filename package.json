@@ -1,0 +1,38 @@
+{
+  "name": "@cirelli/catalogo",
+  "version": "0.1.0",
+  "private": false,
+  "type": "module",
+  "description": "Catalogo condiviso dei corsi della scuola di Tripnosi — Andrea Cirelli / eLife",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "catalogo"
+  ],
+  "scripts": {
+    "genera": "node --experimental-strip-types scripts/genera.ts",
+    "build": "npm run genera && tsc",
+    "prepare": "npm run genera && tsc",
+    "valida": "npm run genera && node --experimental-strip-types src/valida.ts",
+    "typecheck": "npm run genera && tsc --noEmit"
+  },
+  "dependencies": {
+    "yaml": "^2.6.1",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.2",
+    "@types/node": "^22.10.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndroiDario/cirelli-elife-catalogo.git"
+  },
+  "license": "UNLICENSED"
+}

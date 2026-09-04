@@ -1,0 +1,31 @@
+id: immissione-mondo-lavorativo
+titolo: Percorso con immissione nel mondo lavorativo
+sottotitolo: Supervisione diretta del dott. Andrea Cirelli
+ordine: 3
+durata: biennale
+prezzo:
+  pieno: 13400
+comprende:
+  corsi:
+    - linguaggio-inconscio
+    - tipologie-umane-1
+    - tipologie-umane-2
+    - tripnosi-tre-livelli
+    - comunicazione-persuasiva
+    - parlare-in-pubblico
+  master:
+    - master-1
+    - master-2
+    - master-3
+  extra:
+    - Tutto quanto previsto dal percorso biennale
+    - Inserimento nel mondo del lavoro
+    - Supervisione diretta del dott. Andrea Cirelli
+descrizione: |
+  Il livello più alto del percorso formativo: al biennale si aggiungono
+  l'accompagnamento nell'inserimento professionale e la supervisione diretta
+  del dott. Cirelli.
+daConfermare:
+  - Cosa comprende l'immissione nel mondo lavorativo
+  - Numero di ore di supervisione con il dott. Cirelli
+  - Piano rateale

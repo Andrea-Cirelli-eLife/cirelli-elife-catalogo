@@ -1,0 +1,45 @@
+id: tipologie-umane-2
+titolo: Le tipologie umane 2
+sottotitolo: Conoscenza approfondita delle dinamiche delle diverse personalità
+famiglia: corso
+ordine: 6
+durataGiorni: 2
+prezzo:
+  pieno: 560
+  early: 440
+includeConsulenza: true
+prerequisiti: [tipologie-umane-1]
+docenti: [andrea-cirelli]
+abstract: >-
+  Gli effetti delle prime relazioni della nostra vita sulla gestione, da adulti,
+  dei rapporti sentimentali, affettivi, lavorativi e relazionali.
+descrizione: |
+  Le prime relazioni della nostra vita costruiscono il modo in cui, da adulti,
+  gestiamo i rapporti sentimentali, affettivi, lavorativi e relazionali in genere.
+  Non è una metafora: è un imprinting che continua ad agire, e che spiega perché
+  ci ritroviamo negli stessi copioni con protagonisti diversi.
+
+  Dopo aver imparato a riconoscere le tre forme caratteriali, questo secondo
+  livello entra nelle dinamiche che si creano quando due tipologie si incontrano.
+  Perché certe combinazioni si attraggono e poi si logorano, perché altre
+  funzionano senza sforzo, cosa succede in un conflitto fra un'asta e un cerchio,
+  come si riconosce in tempo la direzione che sta prendendo una relazione.
+
+  Il passaggio è dalla lettura del singolo alla lettura del sistema: la coppia, la
+  famiglia, il gruppo di lavoro.
+obiettivi:
+  - Riconoscere le dinamiche che si creano fra tipologie diverse
+  - Comprendere gli effetti delle relazioni originarie sui rapporti adulti
+  - Prevedere l'evoluzione probabile di un conflitto e intervenire prima
+  - Adattare la propria comunicazione alla combinazione che si ha davanti
+  - Leggere le dinamiche di un gruppo, non solo dei suoi singoli componenti
+programma:
+  - Le combinazioni fra le tre tipologie e i loro esiti tipici
+  - Il conflitto originario che continua ad agire nella relazione adulta
+  - Dinamiche di coppia - attrazione, logoramento, rottura
+  - Dinamiche familiari ed educative
+  - Dinamiche nei gruppi di lavoro e nelle organizzazioni
+  - Esercitazioni su casi reali portati dai partecipanti
+daConfermare:
+  - Descrizione da validare
+  - Se "Tipologie umane 1" sia prerequisito obbligatorio o consigliato
