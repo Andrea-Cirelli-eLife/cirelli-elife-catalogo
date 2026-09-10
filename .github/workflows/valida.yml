@@ -42,4 +42,5 @@ jobs:
 
       - name: Nessun hook configurato
         if: env.HOOK_CIRELLI == '' && env.HOOK_ELIFE == ''
-        run: echo "::notice::Nessun Deploy Hook configurato: i siti non sono stati ricostruiti."
+        run: |
+          echo "::notice::Nessun Deploy Hook configurato: i siti non sono stati ricostruiti."
