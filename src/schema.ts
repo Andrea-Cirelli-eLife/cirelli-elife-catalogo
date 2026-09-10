@@ -92,6 +92,15 @@ export const Percorso = z.object({
   ordine: z.number().int().nonnegative(),
   durata: z.enum(["annuale", "biennale"]),
   prezzo: Prezzo,
+  /**
+   * Quanto costerebbe lo stesso programma comprato corso per corso, come lo
+   * calcola la scuola. Non coincide con la somma dei listini: la scuola applica
+   * sconti di combinazione — le due Tipologie umane insieme, i due Master
+   * insieme — che qui non sono modellati corso per corso. Quando c'è, è questo
+   * il numero da mostrare accanto al prezzo del percorso, perché è quello su
+   * cui il cliente ha costruito la propria percentuale di sconto.
+   */
+  valorePieno: z.number().int().positive().optional(),
   comprende: z.object({
     corsi: z.array(Slug).default([]),
     master: z.array(Slug).default([]),
@@ -107,6 +116,9 @@ export const Percorso = z.object({
     .optional(),
   descrizione: z.string().optional(),
   daConfermare: z.array(z.string()).default([]),
+}).refine((p) => p.valorePieno === undefined || p.valorePieno > p.prezzo.pieno, {
+  message: "il valore a listino deve essere superiore al prezzo del percorso",
+  path: ["valorePieno"],
 });
 
 export const Sede = z.object({

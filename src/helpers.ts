@@ -84,11 +84,19 @@ export function corsiDelPercorso(catalogo: Catalogo, percorso: Percorso): Corso[
 }
 
 /**
- * Quanto costerebbero, a prezzo pieno, i corsi compresi in un percorso.
- * I master non hanno prezzo a listino e quindi non entrano nel conto: il
- * risparmio calcolato è per difetto, mai gonfiato.
+ * Quanto costerebbe, comprato corso per corso, il programma di un percorso.
+ *
+ * Se il percorso dichiara un `valorePieno`, vince quello: è il conto della
+ * scuola, che applica sconti di combinazione (le due Tipologie umane insieme, i
+ * due Master insieme) non modellati sui singoli corsi. Sommare i listini
+ * darebbe un numero più alto, e comunicare un risparmio più grande di quello
+ * che il cliente stesso calcola.
+ *
+ * Senza `valorePieno` si somma il listino: i corsi senza prezzo valgono zero,
+ * quindi il risparmio resta per difetto, mai gonfiato.
  */
 export function valoreListino(catalogo: Catalogo, percorso: Percorso): number {
+  if (percorso.valorePieno !== undefined) return percorso.valorePieno;
   return corsiDelPercorso(catalogo, percorso).reduce(
     (somma, corso) => somma + (corso.prezzo?.pieno ?? 0),
     0,

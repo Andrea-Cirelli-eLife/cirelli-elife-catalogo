@@ -7,6 +7,9 @@ prezzo:
   pieno: 13400
 comprende:
   corsi:
+    - workshop-intro
+    - centratura-emotiva
+    - relazione-profonda
     - linguaggio-inconscio
     - tipologie-umane-1
     - tipologie-umane-2
@@ -26,6 +29,7 @@ descrizione: |
   l'accompagnamento nell'inserimento professionale e la supervisione diretta
   del dott. Cirelli.
 daConfermare:
+  - "Prezzo e valore a listino: il foglio del 10 settembre 2026 ricalcola l'annuale e il biennale, questo percorso no"
   - Cosa comprende l'immissione nel mondo lavorativo
   - Numero di ore di supervisione con il dott. Cirelli
   - Piano rateale

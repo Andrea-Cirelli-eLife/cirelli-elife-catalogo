@@ -6,8 +6,7 @@ ordine: 7
 durataGiorni: 4
 durataNota: 2 + 2 giorni, oppure 4 giorni in formato residenziale
 prezzo:
-  pieno: 560
-  early: 440
+  pieno: 935
 includeConsulenza: true
 docenti: [andrea-cirelli]
 abstract: >-
@@ -42,6 +41,7 @@ programma:
   - Cenni di inconscio transdimensionale ed entanglement
   - Pratica a coppie e in piccoli gruppi, con supervisione costante
 daConfermare:
+  - "I 935 € sono la coppia: il foglio del 10 settembre quota TRIP1 440 € e TRIP2 660 €. Se i due moduli si vendono separati, vanno separati anche qui"
   - Descrizione da validare
   - >-
     Se il prezzo valga anche per il formato residenziale da quattro giorni

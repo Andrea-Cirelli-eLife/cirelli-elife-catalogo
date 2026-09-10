@@ -4,11 +4,13 @@ sottotitolo: Il modello della Tripnosi per superare il disagio, evolvere e suppo
 famiglia: master
 ordine: 10
 durataGiorni: 3
+prezzo:
+  pieno: 750
 includeConsulenza: false
 docenti: [andrea-cirelli]
 abstract: >-
   Primo dei tre master della scuola. Si frequenta all'interno del percorso
-  annuale, non si vende singolarmente.
+  annuale.
 daConfermare:
-  - Se esista un prezzo per la frequenza singola, fuori dai percorsi
+  - Se il prezzo di 750 € valga anche fuori dai percorsi, o solo dentro
   - Descrizione estesa e programma

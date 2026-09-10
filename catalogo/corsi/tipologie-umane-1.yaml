@@ -5,8 +5,7 @@ famiglia: corso
 ordine: 5
 durataGiorni: 2
 prezzo:
-  pieno: 560
-  early: 440
+  pieno: 440
 includeConsulenza: true
 docenti: [andrea-cirelli]
 abstract: >-

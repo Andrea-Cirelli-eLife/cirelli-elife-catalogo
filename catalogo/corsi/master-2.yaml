@@ -4,11 +4,13 @@ sottotitolo: Il modello della Tripnosi per superare il disagio, potenziarsi e su
 famiglia: master
 ordine: 11
 durataGiorni: 3
+prezzo:
+  pieno: 750
 includeConsulenza: false
 prerequisiti: [master-1]
 docenti: [andrea-cirelli]
 abstract: >-
   Secondo master della scuola, compreso nel percorso annuale.
 daConfermare:
-  - Se esista un prezzo per la frequenza singola, fuori dai percorsi
+  - Se il prezzo di 750 € valga anche fuori dai percorsi, o solo dentro
   - Se "Master eLife 1" sia prerequisito formale

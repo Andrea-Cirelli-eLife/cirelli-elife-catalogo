@@ -5,8 +5,7 @@ famiglia: corso
 ordine: 6
 durataGiorni: 2
 prezzo:
-  pieno: 560
-  early: 440
+  pieno: 440
 includeConsulenza: true
 prerequisiti: [tipologie-umane-1]
 docenti: [andrea-cirelli]

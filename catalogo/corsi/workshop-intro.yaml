@@ -7,7 +7,6 @@ durataGiorni: 1
 durataNota: Una giornata, oppure format introduttivo di una serata (un'ora e mezza)
 prezzo:
   pieno: 150
-  early: 100
 includeConsulenza: false
 porta: null
 docenti: [andrea-cirelli]

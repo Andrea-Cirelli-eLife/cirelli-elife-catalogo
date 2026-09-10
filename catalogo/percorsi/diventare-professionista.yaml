@@ -5,8 +5,14 @@ ordine: 2
 durata: biennale
 prezzo:
   pieno: 6700
+# 9.640 € comprati corso per corso (due annualità), meno il 30% di sconto
+# sull'iscrizione ai due anni: foglio del 10 settembre 2026.
+valorePieno: 9640
 comprende:
   corsi:
+    - workshop-intro
+    - centratura-emotiva
+    - relazione-profonda
     - linguaggio-inconscio
     - tipologie-umane-1
     - tipologie-umane-2
@@ -35,5 +41,4 @@ descrizione: |
 
   Tre passaggi progressivi: sapere, saper fare, saper essere.
 daConfermare:
-  - Se i due workshop porta siano compresi
   - Piano rateale su due anni

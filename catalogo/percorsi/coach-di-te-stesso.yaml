@@ -4,9 +4,15 @@ sottotitolo: Percorso annuale nella scuola di Tripnosi
 ordine: 1
 durata: annuale
 prezzo:
-  pieno: 3350
+  pieno: 3850
+# 4.820 € comprati corso per corso, meno il 20% di sconto sull'iscrizione
+# al percorso: foglio del dott. Cirelli del 10 settembre 2026.
+valorePieno: 4820
 comprende:
   corsi:
+    - workshop-intro
+    - centratura-emotiva
+    - relazione-profonda
     - linguaggio-inconscio
     - tipologie-umane-1
     - tipologie-umane-2
@@ -22,6 +28,4 @@ descrizione: |
   propri automatismi, gestire autonomamente emozioni e relazioni, usare il Viaggio
   Interiore Guidato senza doverne dipendere.
 daConfermare:
-  - Se i due workshop porta siano compresi nel percorso
-  - Il workshop intro è compreso?
   - "Piano rateale: quante rate e con quale anticipo"
