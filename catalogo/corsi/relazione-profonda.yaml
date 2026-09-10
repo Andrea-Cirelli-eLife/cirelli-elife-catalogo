@@ -5,7 +5,8 @@ famiglia: workshop-porta
 ordine: 3
 durataGiorni: 1
 prezzo:
-  pieno: 220
+  pieno: 280
+  early: 220
 includeConsulenza: true
 porta: altri
 docenti: []
