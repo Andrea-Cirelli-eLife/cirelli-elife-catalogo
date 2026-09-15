@@ -30,7 +30,7 @@ Modellarlo al contrario obbliga a riscrivere il catalogo al secondo anno di scuo
 ## Uso
 
 ```json
-"@cirelli/catalogo": "github:AndroiDario/cirelli-elife-catalogo#main"
+"@cirelli/catalogo": "github:Andrea-Cirelli-eLife/cirelli-elife-catalogo#main"
 ```
 
 ```ts
