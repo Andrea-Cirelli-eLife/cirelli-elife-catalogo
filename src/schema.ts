@@ -74,6 +74,9 @@ export const Edizione = z
     /** Override dei docenti del corso: i workshop porta li conduce lo staff. */
     docenti: z.array(Slug).optional(),
     stato: StatoEdizione,
+    /** Pagina dove ci si iscrive, se non è la scheda del sito: la landing
+        dell'evento. Senza, le card portano al calendario. */
+    urlIscrizione: z.string().url().optional(),
     note: z.string().optional(),
     daConfermare: z.array(z.string()).default([]),
   })

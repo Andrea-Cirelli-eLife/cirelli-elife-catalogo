@@ -1,0 +1,18 @@
+id: 2026-10-10-workshop-intro
+corso: workshop-intro
+dal: 2026-10-10
+al: 2026-10-10
+sede: brescia-tenuta-urbana
+formato: presenza
+posti: 30
+earlyBirdFino: 2026-09-27
+stato: aperta
+# Brief di Cecilia e Andrea (modifiche-10-10.pdf, 15/09/2026): la data passa dal
+# 3 al 10 ottobre, l'early bird al 27 settembre. Ci si iscrive dalla landing.
+urlIscrizione: https://landing.elifelab.it/
+note: >-
+  Registrazione 9.30 · lavori 10.00–13.00 · pausa · 14.30–17.30.
+  Pranzo in struttura 30 € (facoltativo, si prenota nel modulo e si salda a Tenuta Urbana):
+  mai compreso nella quota.
+daConfermare:
+  - Numero di posti
