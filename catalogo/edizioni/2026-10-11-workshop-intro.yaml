@@ -1,14 +1,16 @@
-id: 2026-10-10-workshop-intro
+id: 2026-10-11-workshop-intro
 corso: workshop-intro
-dal: 2026-10-10
-al: 2026-10-10
+dal: 2026-10-11
+al: 2026-10-11
 sede: brescia-tenuta-urbana
 formato: presenza
 posti: 30
 earlyBirdFino: 2026-09-27
 stato: aperta
 # Brief di Cecilia e Andrea (modifiche-10-10.pdf, 15/09/2026): la data passa dal
-# 3 al 10 ottobre, l'early bird al 27 settembre. Ci si iscrive dalla landing.
+# 3 al 10 ottobre, l'early bird al 27 settembre. La landing in produzione però dice
+# domenica 11 ottobre, e il documento «MODIFICHE SITI 26_09» parla di «landing
+# dell'11 ottobre»: il 2 ottobre 2026 Dario conferma l'11. Ci si iscrive dalla landing.
 urlIscrizione: https://landing.elifelab.it/
 note: >-
   Registrazione 9.30 · lavori 10.00–13.00 · pausa · 14.30–17.30.

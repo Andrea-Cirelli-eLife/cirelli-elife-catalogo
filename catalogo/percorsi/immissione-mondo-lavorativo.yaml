@@ -1,6 +1,10 @@
 id: immissione-mondo-lavorativo
-titolo: Percorso con immissione nel mondo lavorativo
-sottotitolo: Supervisione diretta del dott. Andrea Cirelli
+# Nome dal documento «MODIFICHE SITI 26_09» (p. 2): «Percorso professionale
+# personalizzato · Biennale · con affiancamento individuale». «Biennale» lo
+# mostrano già i siti, dalla durata. L'id resta quello vecchio: è negli indirizzi
+# `?voce=` dei moduli.
+titolo: Percorso professionale personalizzato
+sottotitolo: Con affiancamento individuale
 ordine: 3
 durata: biennale
 prezzo:
@@ -33,3 +37,4 @@ daConfermare:
   - Cosa comprende l'immissione nel mondo lavorativo
   - Numero di ore di supervisione con il dott. Cirelli
   - Piano rateale
+  - "Con il nuovo nome (26/09/2026) extra e descrizione parlano ancora di «inserimento nel mondo del lavoro»: da confermare se resta o se diventa «affiancamento individuale»"
