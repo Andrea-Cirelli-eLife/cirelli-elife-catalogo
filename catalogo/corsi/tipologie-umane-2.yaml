@@ -9,36 +9,21 @@ prezzo:
 includeConsulenza: true
 prerequisiti: [tipologie-umane-1]
 docenti: [andrea-cirelli]
+# Testo: «TESTI FINALI DEI CORSI», 7 ottobre 2026. Sostituisce quello scritto da VEDA.
+# Il documento ha una sola frase introduttiva: fa da abstract, senza descrizione.
 abstract: >-
-  Gli effetti delle prime relazioni della nostra vita sulla gestione, da adulti,
-  dei rapporti sentimentali, affettivi, lavorativi e relazionali.
-descrizione: |
-  Le prime relazioni della nostra vita costruiscono il modo in cui, da adulti,
-  gestiamo i rapporti sentimentali, affettivi, lavorativi e relazionali in genere.
-  Non è una metafora: è un imprinting che continua ad agire, e che spiega perché
-  ci ritroviamo negli stessi copioni con protagonisti diversi.
-
-  Dopo aver imparato a riconoscere le tre forme caratteriali, questo secondo
-  livello entra nelle dinamiche che si creano quando due tipologie si incontrano.
-  Perché certe combinazioni si attraggono e poi si logorano, perché altre
-  funzionano senza sforzo, cosa succede in un conflitto fra un'asta e un cerchio,
-  come si riconosce in tempo la direzione che sta prendendo una relazione.
-
-  Il passaggio è dalla lettura del singolo alla lettura del sistema: la coppia, la
-  famiglia, il gruppo di lavoro.
+  Per comprendere gli effetti delle prime relazioni della nostra vita nella gestione
+  da adulti dei rapporti sentimentali affettivi, lavorativi e relazionali in genere.
 obiettivi:
-  - Riconoscere le dinamiche che si creano fra tipologie diverse
-  - Comprendere gli effetti delle relazioni originarie sui rapporti adulti
-  - Prevedere l'evoluzione probabile di un conflitto e intervenire prima
-  - Adattare la propria comunicazione alla combinazione che si ha davanti
-  - Leggere le dinamiche di un gruppo, non solo dei suoi singoli componenti
+  - Conoscere a fondo te stesso e gli altri
+  - Evitare relazioni potenzialmente dannose
+  - Costruire relazioni serene e motivanti in qualsiasi ambito della vita
+  - La comunicazione inconscia come strumento per realizzare entanglement ovvero interconnessione profonda con se stessi, gli altri, il mondo
 programma:
-  - Le combinazioni fra le tre tipologie e i loro esiti tipici
-  - Il conflitto originario che continua ad agire nella relazione adulta
-  - Dinamiche di coppia - attrazione, logoramento, rottura
-  - Dinamiche familiari ed educative
-  - Dinamiche nei gruppi di lavoro e nelle organizzazioni
-  - Esercitazioni su casi reali portati dai partecipanti
+  - "Le tappe evolutive dell'essere umano: come diventiamo una tipologia asta (paterna), triangolo (materna), cerchio (egocentrica)"
+  - "Il pathos e la reattività: conoscere e riconoscere la metà del mondo che si coinvolge nella dinamica piacere/sofferenza e l'altra metà che si coinvolge nella dinamica risentimenti/sensi di colpa"
+  - "Oggetti del desiderio e antagonisti reali e presunti: motivazione e gestione di insicurezze, gelosie e tendenze al contrasto e al conflitto"
+  - "Le triadi: scopri come e perché nascono delle paure e delle incomprensioni profonde con gli altri che possono portare alla rottura di relazioni private e professionali potenzialmente gratificanti"
+  - Laboratorio pratico esperienziale
 daConfermare:
-  - Descrizione da validare
   - Se "Tipologie umane 1" sia prerequisito obbligatorio o consigliato

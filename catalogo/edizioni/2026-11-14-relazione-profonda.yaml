@@ -1,14 +1,14 @@
-id: 2026-10-17-relazione-profonda
+id: 2026-11-14-relazione-profonda
 corso: relazione-profonda
-dal: 2026-10-17
-al: 2026-10-17
+# Data comunicata da Andrea il 7 ottobre 2026 (prima: 17 ottobre).
+dal: 2026-11-14
+al: 2026-11-14
 sede: brescia-tenuta-urbana
 formato: presenza
 posti: 30
 stato: bozza
 note: Seconda porta — ottenere il meglio dagli altri.
 daConfermare:
-  - Data
   - Sede
   - Scadenza early bird
   - Docente

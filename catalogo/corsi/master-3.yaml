@@ -7,9 +7,27 @@ durataGiorni: 4
 includeConsulenza: false
 prerequisiti: [master-1, master-2]
 docenti: [andrea-cirelli]
+# Testo: «TESTI FINALI DEI CORSI», 7 ottobre 2026. «Trypnosis» è reso «Tripnosi».
+# «L'accesso al Master avviene dopo il conseguimento dei primi due» lo dicono già i
+# prerequisiti, che entrambi i siti mostrano.
 abstract: >-
-  Terzo master, accessibile dopo il conseguimento di Master eLife 1 e 2.
-  Compreso nel percorso biennale.
+  È il passaggio dall'apprendere le tecniche al saperle orchestrare in modo coerente,
+  personalizzato ed efficace.
+descrizione: |
+  Il primo Master insegna il perché (analogico), il secondo insegna il come
+  (strategico), il terzo insegna il quando, quanto e in quale sequenza utilizzare
+  ciascun modello e quando il soggetto è pronto ad accedere alla logica
+  dell'entanglement energetico-emozionale.
+programma:
+  - "Formulazione del caso: prima ancora di intervenire su se stessi o gli altri, imparare a leggere il caso: qual è il problema principale? Qual è la priorità? Cosa va affrontato subito e cosa invece richiede un lavoro profondo?"
+  - "Costruzione della strategia d'intervento: non solo applicare tecniche, ma progettare un percorso personalizzato decidendo quando usare il modello analogico, quando quello strategico, quando quello dell'entanglement e quando integrarli"
+  - "Flessibilità metodologica: imparare a modificare il percorso in base alle risposte della persona, senza seguire protocolli rigidi"
+  - "Gestione dei casi complessi: persone con più problematiche contemporaneamente (disagio con se stessi, gli altri e il mondo), dove è necessario stabilire priorità e sequenza degli interventi"
+  - "Supervisione avanzata: analisi collegiale delle sedute, degli errori, delle difficoltà e delle possibili alternative d'intervento"
+  - "Modello di conduzione del percorso: dal primo colloquio alla chiusura del percorso: accoglienza, definizione degli obiettivi, gestione delle resistenze, verifica dei risultati e conclusione dell'intervento"
+  - "Stile personale del coach: ogni allievo impara a trovare il proprio modo di lavorare, mantenendo la filosofia della Tripnosi ma senza diventare una copia del docente"
+  - "Integrazione tra teoria ed esperienza: meno lezioni frontali e più laboratori, simulazioni, esercitazioni, supervisione e lavoro su casi reali"
 daConfermare:
   - "Prezzo: il foglio del 10 settembre 2026 quota Master 1 e 2 a 750 € l'uno, il 3 non lo nomina"
   - Se esista un prezzo per la frequenza singola, fuori dai percorsi
+  - "In fondo al documento c'è una voce isolata, «Autogestione delle emozioni e potenziamento personale»: non è in pagina finché non si sa dove va"
