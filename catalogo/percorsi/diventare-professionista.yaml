@@ -3,6 +3,10 @@ titolo: Diventare professionista
 sottotitolo: Percorso biennale di formazione professionale — eLife Coach
 ordine: 2
 durata: biennale
+# Calendario eLife 2026/2027: il percorso parte con il primo weekend formativo.
+annoFormativo:
+  nome: 2026/2027
+  inizio: 2027-02-06
 prezzo:
   pieno: 6700
 # 9.640 € comprati corso per corso (due annualità), meno il 30% di sconto

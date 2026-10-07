@@ -1,6 +1,8 @@
 id: 2026-11-14-relazione-profonda
 corso: relazione-profonda
-# Data comunicata da Andrea il 7 ottobre 2026 (prima: 17 ottobre).
+# Data comunicata da Andrea il 7 ottobre 2026 (prima: 17 ottobre). Il calendario
+# eLife 2026/2027 la conferma, ma la chiama «Esperienza pratica · Conosci. Cambia.
+# Coinvolgi.»: finché non si sa se è lo stesso workshop, l'edizione resta in bozza.
 dal: 2026-11-14
 al: 2026-11-14
 sede: brescia-tenuta-urbana
@@ -9,6 +11,7 @@ posti: 30
 stato: bozza
 note: Seconda porta — ottenere il meglio dagli altri.
 daConfermare:
+  - "Titolo: il calendario dice «Conosci. Cambia. Coinvolgi.», Andrea «Tripnosi: entra in relazione profonda con l'altro»"
   - Sede
   - Scadenza early bird
   - Docente

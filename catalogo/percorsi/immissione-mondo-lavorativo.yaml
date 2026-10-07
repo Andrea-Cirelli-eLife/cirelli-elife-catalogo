@@ -7,6 +7,10 @@ titolo: Percorso professionale personalizzato
 sottotitolo: Con affiancamento individuale
 ordine: 3
 durata: biennale
+# Calendario eLife 2026/2027: il percorso parte con il primo weekend formativo.
+annoFormativo:
+  nome: 2026/2027
+  inizio: 2027-02-06
 prezzo:
   pieno: 13400
 comprende:

@@ -94,6 +94,17 @@ export const Percorso = z.object({
   sottotitolo: z.string().optional(),
   ordine: z.number().int().nonnegative(),
   durata: z.enum(["annuale", "biennale"]),
+  /**
+   * L'anno formativo in corso, quando la scuola l'ha fissato. I workshop che
+   * lo precedono sono ingressi: si possono fare prima, ma il percorso parte da
+   * `inizio`, cioè dal primo weekend formativo.
+   */
+  annoFormativo: z
+    .object({
+      nome: z.string().regex(/^\d{4}\/\d{4}$/, "deve essere nella forma 2026/2027"),
+      inizio: DataISO,
+    })
+    .optional(),
   prezzo: Prezzo,
   /**
    * Quanto costerebbe lo stesso programma comprato corso per corso, come lo

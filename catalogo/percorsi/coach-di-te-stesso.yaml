@@ -3,6 +3,10 @@ titolo: Diventa coach di te stesso
 sottotitolo: Percorso annuale nella scuola di Tripnosi
 ordine: 1
 durata: annuale
+# Calendario eLife 2026/2027: il percorso parte con il primo weekend formativo.
+annoFormativo:
+  nome: 2026/2027
+  inizio: 2027-02-06
 prezzo:
   pieno: 3850
 # 4.820 € comprati corso per corso, meno il 20% di sconto sull'iscrizione
