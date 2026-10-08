@@ -1,5 +1,5 @@
 id: parlare-in-pubblico
-titolo: Parlare in pubblico nell'approccio eLife
+titolo: "Tripnosi: l'arte di parlare in pubblico a tre livelli"
 famiglia: corso
 ordine: 9
 durataGiorni: 2
@@ -8,6 +8,7 @@ prezzo:
 includeConsulenza: true
 docenti: [andrea-cirelli]
 # Testo: «TESTI FINALI DEI CORSI», 7 ottobre 2026. Sostituisce quello scritto da VEDA.
+# Titolo: Cecilia, 8 ottobre 2026.
 abstract: >-
   Di fronte ad un pubblico subisci l'emotività? Le persone non risultano «catturate»
   da come parli?
@@ -35,5 +36,4 @@ programma:
   - "Comunicazione emozionale attiva: una particolare tecnica di comunicazione non verbale induttiva che si avvale del segno e del gesto (cinesica e digitale), della prossemica (gestione degli spazi comunicativi), della paralinguistica (gestione dei tratti sopra e sotto segmentali della voce)"
   - "Comunicazione simbolica: utilizzo dei codici simbolici Asta (paterno) – Triangolo (materno) – Cerchio (egocentrico), nella comunicazione verbale e non verbale e nei comportamenti da adottare nei confronti del gruppo"
 daConfermare:
-  - "Titolo: il documento del 7 ottobre usa sia «nell'approccio eLife» sia «nella visione della Tripnosi»"
   - "Frase da rivedere: «per ottenere più facilmente che il pubblico ti segua il prezioso consenso»"

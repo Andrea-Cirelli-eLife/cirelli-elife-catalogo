@@ -11,11 +11,26 @@ includeConsulenza: true
 porta: altri
 docenti: []
 # Testo corretto da Andrea il 7 ottobre 2026: «WORKSHOP TRIPNOSI, MODIFICHE TESTO»,
-# lo stesso di «TESTI FINALI DEI CORSI».
+# lo stesso di «TESTI FINALI DEI CORSI». Il capoverso d'apertura, che lì mancava, l'ha
+# mandato Cecilia l'8 ottobre 2026.
 abstract: >-
   Seconda porta — ottieni il meglio nella relazione con gli altri. Andare oltre
   lo scambio di parole per incontrare il mondo emotivo dell'interlocutore.
 descrizione: |
+  Per poter avere una relazione appagante occorre saper creare sia sintonia che
+  coinvolgimento. A differenza di ciò che già si conosce riguardo la sintonia fra due
+  persone qui si insegna ad ottenere una connessione profonda con l'altro. Spesso,
+  nella vita, corriamo il rischio di risultare persone neutre, non attrattive o
+  carismatiche, questo perché nessuno ci ha spiegato come diventare fonte di
+  stimolazione e di seguito «simbolo» per l'altra persona. Quando diventi «simbolo» il
+  fatto di ascoltarti e di seguirti per l'altro è un atto d'amore e non stiamo parlando
+  per forza di rapporti sentimentali affettivi. Il figlio che abbraccia il genitore e
+  prova affetto per lui è perché lo riconosce come simbolo, così come il dipendente di
+  un'azienda si affeziona al titolare, così come un allievo per un insegnante, così come
+  un iscritto ad un partito per il leader politico farebbe qualsiasi cosa, così come un
+  atleta per l'allenatore e certamente così come un innamorato che riconosce simbolo il
+  proprio partner.
+
   Per conquistare questo ruolo bisogna imparare a riconoscere e utilizzare le chiavi
   di accesso al mondo emotivo e inconscio dell'altra persona, creando gradualmente un
   coinvolgimento sempre più profondo.
@@ -49,6 +64,5 @@ programma:
   - Esempi di applicazione nei rapporti affettivi, familiari, educativi, professionali e d'aiuto
   - Pratiche esperienziali in gruppo e in piccoli gruppi
 daConfermare:
-  - "Il testo del 7 ottobre comincia con «Per conquistare questo ruolo»: quale ruolo? Manca forse un capoverso d'apertura"
   - Docente
   - Cosa comprende esattamente la consulenza inclusa
