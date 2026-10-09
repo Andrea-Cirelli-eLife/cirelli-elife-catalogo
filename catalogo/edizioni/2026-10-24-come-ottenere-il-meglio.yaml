@@ -1,0 +1,26 @@
+id: 2026-10-24-come-ottenere-il-meglio
+corso: come-ottenere-il-meglio
+# Calendario eLife 2026/2027 (PDF di Cecilia, ottobre 2026): sabato 24 ottobre,
+# «Workshop esperienziale · Come ottenere il meglio da te stesso, dagli altri e
+# dal mondo». Fino al 9 ottobre 2026 era un'edizione della Centratura emotiva, per
+# assunzione; i testi della landing mandati da Cecilia quel giorno descrivono un
+# workshop a sé, sulle tre tipologie. L'id è cambiato con il corso: in D1 l'unica
+# richiesta con il vecchio (2026-10-24-centratura-emotiva) era una prova di Dario.
+dal: 2026-10-24
+al: 2026-10-24
+sede: brescia-tenuta-urbana
+formato: presenza
+posti: 30
+# Fino al 9 ottobre la pagina mostrava 280 €, il prezzo della Centratura emotiva.
+quotaDaConfermare: true
+stato: aperta
+urlIscrizione: https://www.elifelab.it/eventi/24-ottobre
+note: >-
+  Dalle 9:30 alle 17:30. Promozione decisa nella call con lo staff e confermata
+  il 9 ottobre: la giornata è in regalo a chi porta altre tre persone, ed è
+  gratuita anche per loro.
+daConfermare:
+  - Quota per chi viene da solo, ed eventuale early bird
+  - "Promozione «porta tre persone»: vale per tutti o solo per chi era all'11 ottobre?"
+  - Sede (Tenuta Urbana?)
+  - Docente

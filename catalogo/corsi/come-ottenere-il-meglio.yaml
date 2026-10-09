@@ -1,0 +1,90 @@
+id: come-ottenere-il-meglio
+titolo: Come ottenere il meglio da te stesso, dagli altri e dal mondo
+sottotitolo: Conosci te stesso. Comprendi gli altri. Trasforma le tue relazioni.
+famiglia: workshop-intro
+# Dopo i Master: l'ordine conta solo dentro la famiglia, e qui viene dopo il workshop intro.
+ordine: 13
+durataGiorni: 1
+durataNota: Una giornata, dalle 9:30 alle 17:30
+# Senza prezzo finché lo staff non dà la quota: l'edizione del 24 ha
+# `quotaDaConfermare`, e le pagine non mostrano un prezzo.
+includeConsulenza: false
+porta: null
+docenti: []
+# Testo: «TESTI PER LANDING 24_10» di Cecilia, 9 ottobre 2026 (cartella LANDING).
+# Trascritto con le regole di modifiche-07-10.md; corretti «la maggior parte della volte»
+# e la grafia delle tipologie, che il documento scrive sia col trattino sia senza.
+# Il programma a orari della giornata sta nella landing (elifelab-it, landing.ts).
+abstract: >-
+  Una giornata esperienziale e formativa per comprendere meglio te stesso, leggere
+  gli altri con occhi nuovi e trasformare il modo in cui vivi le tue relazioni.
+descrizione: |
+  Hai mai notato che, quasi senza accorgertene, utilizzi più spesso certi gesti
+  piuttosto che altri? Che nei tuoi discorsi ritornano determinate parole, immagini o
+  espressioni? O che, in alcune situazioni, ti ritrovi a mettere in atto sempre gli
+  stessi comportamenti?
+
+  Questi elementi possono diventare preziosi indizi di quello che possiamo definire il
+  tuo «DNA emotivo». Ognuno di noi tende infatti a riconoscersi prevalentemente in una
+  particolare tipologia: asta paterna, triangolo materna o cerchio egocentrica.
+
+  Ma cosa significa essere un'asta, un triangolo o un cerchio? E soprattutto: quanto
+  questa predisposizione influenza il modo in cui ami, vivi le relazioni, affronti i
+  conflitti e cerchi la tua autorealizzazione?
+
+  Durante la prima parte della giornata imparerai a riconoscere la tua tipologia di
+  appartenenza e a comprendere alcune delle dinamiche che possono caratterizzare la tua
+  vita affettiva, passionale e personale.
+
+  Potresti, per esempio, riconoscerti nella persona che sente continuamente il bisogno
+  di prendersi cura degli altri, per esempio in un rapporto di coppia o di amicizia,
+  fino a sviluppare quella che definiamo provocatoriamente la «sindrome della
+  Crocerossina» o del «cane San Bernardo», dove inesorabilmente finirai per ottenere
+  relazioni nelle quali gli altri pretendono cose e soprattutto non ti sentono più
+  attrattivo ma semplicemente «utile».
+
+  Oppure scoprirai perché, in molte situazioni, impulsività, reattività o
+  colpevolizzazione rischiano di compromettere rapporti di coppia o lavorativi che
+  avrebbero invece tutte le potenzialità per essere meravigliosi. Il bello è che questi
+  atteggiamenti accusatori non sono ragionati, voluti davvero, ma la maggior parte delle
+  volte sono difensivi.
+
+  O ancora, potresti riconoscerti nella tendenza a manifestarti egocentrico quasi senza
+  volerlo, fino ad allontanare gli altri per i tuoi eccessi, o al contrario, nella
+  versione passiva di questa terza tipologia umana, a essere continuamente giudice di te
+  stesso, vivendo conflitti di coscienza, sensi di colpa e quella sensazione profonda di
+  non essere abbastanza degno o meritevole da concederti veramente il meglio nella vita.
+
+  Riconoscere la tua tipologia significa iniziare a comprendere meglio ciò che ti
+  muove, ciò che ti condiziona e ciò di cui hai realmente bisogno nelle relazioni e
+  nella realizzazione di te stesso.
+
+  Nella seconda parte della giornata sposteremo lo sguardo sull'altro. Imparerai a
+  riconoscere la tipologia di appartenenza del tuo interlocutore osservando alcuni
+  segnali del linguaggio del corpo, particolari comportamenti e parole ricorrenti che
+  utilizza nella comunicazione.
+
+  Inizierai così a vedere le persone in modo diverso, andando oltre ciò che mostrano in
+  superficie e cogliendo aspetti più profondi del loro modo di sentire, reagire e stare
+  nella relazione. Questo ti permetterà di andare oltre molti dei giudizi e dei
+  pregiudizi che spesso imprigionano i rapporti e impediscono una comunicazione
+  autentica.
+
+  E qui potrà arrivare un vero flash: scoprire come puoi gestire un conflitto, capire
+  più rapidamente chi hai davanti e coinvolgere la persona a cui tieni in pochi minuti,
+  grazie al riconoscimento della sua tipologia di appartenenza. Un modo nuovo di leggere
+  l'altro che può cambiare radicalmente il tuo modo di comunicare con il partner, con un
+  familiare, con un collega, con un collaboratore o con qualunque persona importante
+  nella tua vita.
+programma:
+  - "Introduzione al DNA emotivo: come il nostro DNA emotivo influenza comportamenti, emozioni e relazioni"
+  - "Le tre tipologie umane: asta paterna, triangolo materno e cerchio egocentrico. Caratteristiche, predisposizioni e dinamiche emotive"
+  - "Riconosci la tua tipologia: esercizi esperienziali per individuare la propria tipologia prevalente e riconoscere automatismi, reazioni e comportamenti ricorrenti"
+  - "Dalla consapevolezza al cambiamento: comprendere i propri schemi nelle relazioni affettive, personali e professionali, e riconoscere ciò che limita la propria autorealizzazione"
+  - "Riconosci la tipologia di chi hai davanti: osservare il linguaggio del corpo, le parole e i comportamenti ricorrenti, e individuare i segnali caratteristici delle tre tipologie"
+  - "Comunicare in modo efficace: adattare la comunicazione alla tipologia dell'interlocutore e superare giudizi, incomprensioni e pregiudizi"
+  - "Gestire i conflitti e creare coinvolgimento: strategie per trasformare le dinamiche conflittuali e creare sintonia, connessione e coinvolgimento nelle relazioni, con esercitazioni pratiche ed esperienziali"
+  - "Integrare e mettere in pratica: come utilizzare nella vita quotidiana ciò che hai appreso. Condivisione delle esperienze e conclusioni"
+daConfermare:
+  - Quota, ed eventuale early bird
+  - Docente
