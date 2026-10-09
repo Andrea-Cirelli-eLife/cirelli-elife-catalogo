@@ -114,7 +114,7 @@ export function verificaCatalogo(grezzo: Grezzo): Catalogo {
       verificaRiferimenti(`edizione "${e.id}"`, "docenti", e.docenti, idDocenti, problemi);
     }
     const corso = corsi.find((c) => c.id === e.corso);
-    if (corso && !corso.prezzo && !e.prezzo) {
+    if (corso && !corso.prezzo && !e.prezzo && !e.quotaDaConfermare) {
       problemi.push(
         `edizione "${e.id}": né il corso "${e.corso}" né l'edizione hanno un prezzo`,
       );
