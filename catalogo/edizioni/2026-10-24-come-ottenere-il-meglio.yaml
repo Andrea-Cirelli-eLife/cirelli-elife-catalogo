@@ -11,8 +11,8 @@ al: 2026-10-24
 sede: brescia-tenuta-urbana
 formato: presenza
 posti: 30
-# Fino al 9 ottobre la pagina mostrava 280 €, il prezzo della Centratura emotiva.
-quotaDaConfermare: true
+# Quota e early bird da Andrea, 10 ottobre 2026: 150 €, 100 € fino a sabato 17.
+earlyBirdFino: 2026-10-17
 stato: aperta
 urlIscrizione: https://www.elifelab.it/eventi/24-ottobre
 note: >-
@@ -20,7 +20,6 @@ note: >-
   il 9 ottobre: la giornata è in regalo a chi porta altre tre persone, ed è
   gratuita anche per loro.
 daConfermare:
-  - Quota per chi viene da solo, ed eventuale early bird
   - "Promozione «porta tre persone»: vale per tutti o solo per chi era all'11 ottobre?"
   - Sede (Tenuta Urbana?)
   - Docente

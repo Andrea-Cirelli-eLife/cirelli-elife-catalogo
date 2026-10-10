@@ -6,8 +6,10 @@ famiglia: workshop-intro
 ordine: 13
 durataGiorni: 1
 durataNota: Una giornata, dalle 9:30 alle 17:30
-# Senza prezzo finché lo staff non dà la quota: l'edizione del 24 ha
-# `quotaDaConfermare`, e le pagine non mostrano un prezzo.
+# Quota data da Andrea il 10 ottobre 2026: 150 €, early bird 100 €.
+prezzo:
+  pieno: 150
+  early: 100
 includeConsulenza: false
 porta: null
 docenti: []
