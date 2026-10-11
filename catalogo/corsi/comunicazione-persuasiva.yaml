@@ -8,6 +8,8 @@ prezzo:
 includeConsulenza: true
 docenti: [andrea-cirelli]
 # Testo: «TESTI FINALI DEI CORSI», 7 ottobre 2026. Sostituisce quello scritto da VEDA.
+# Terza voce del programma corretta dal documento di Cecilia del 10 ottobre:
+# via «una», più «e poi simbolo».
 abstract: >-
   Comunicare non significa soltanto esprimere bene ciò che pensiamo. Significa saper
   creare le condizioni perché l'altro abbia piacere ad ascoltarci, comprenderci e
@@ -39,7 +41,7 @@ obiettivi:
 programma:
   - "Il R.E.P. – Rapporto Empatico Positivo: come entrare in sintonia con uno o più interlocutori, anche quando il dialogo parte da posizioni distanti o difficili"
   - "La comunicazione persuasiva: parole, frasi e modalità comunicative derivate e integrate dagli approcci analogico, neurolinguistico e strategico"
-  - "La fase induttiva e il pilotaggio del dialogo: i passaggi attraverso i quali il comunicatore smette di essere una presenza neutra e diventa progressivamente una fonte significativa di stimolazione per l'interlocutore"
+  - "La fase induttiva e il pilotaggio del dialogo: i passaggi attraverso i quali il comunicatore smette di essere una presenza neutra e diventa progressivamente fonte significativa di stimolazione e poi simbolo per l'interlocutore"
   - "La persuasione analogica: come utilizzare la dimensione emotiva della comunicazione per favorire ascolto, coinvolgimento e disponibilità"
   - "La gestione del contrasto e del conflitto: come riconoscere ciò che accade dentro di noi e nella relazione quando nasce un'opposizione, evitando che una semplice divergenza si trasformi in uno scontro"
   - "L'autocontrollo interattivo: strumenti del modello analogico per gestire le proprie reazioni emotive e mantenere efficacia e lucidità nella relazione"

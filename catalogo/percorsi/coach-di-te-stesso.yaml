@@ -26,10 +26,27 @@ comprende:
   master:
     - master-1
     - master-2
+# Documento di Cecilia «10 ottobre: modifiche»: resta la prima frase, via «È dedicato
+# a chi vuole acquisire il metodo per sé…», poi i capoversi nuovi parola per parola.
 descrizione: |
   Il percorso annuale comprende l'intero ciclo dei corsi della scuola e i primi due
-  Master eLife. È dedicato a chi vuole acquisire il metodo per sé: riconoscere i
-  propri automatismi, gestire autonomamente emozioni e relazioni, usare il Viaggio
-  Interiore Guidato senza doverne dipendere.
+  Master eLife.
+
+  Questo non è un percorso per collezionare tecniche, ma per acquisire un metodo con
+  cui guidare consapevolmente la propria evoluzione.
+
+  Un anno di formazione per imparare a riconoscere e trasformare i propri automatismi,
+  comprendere il dialogo tra conscio e inconscio e intervenire sui diversi livelli di
+  significato che regolano emozioni, comportamenti e relazioni.
+
+  Un percorso progressivo e strutturato che sviluppa la capacità di agire su se stessi,
+  comunicare in profondità con gli altri, gestire i conflitti e affrontare le dinamiche
+  relazionali e sociali, fino all'arte di parlare in pubblico.
+
+  L'obiettivo è diventare autonomi nel proprio autosviluppo, acquisendo strumenti
+  utilizzabili nel tempo, senza dipendere continuamente da una guida esterna.
+
+  Non imparare semplicemente cosa fare. Imparare a comprendere ciò che accade, perché
+  accade e come intervenire per cambiarlo.
 daConfermare:
   - "Piano rateale: quante rate e con quale anticipo"

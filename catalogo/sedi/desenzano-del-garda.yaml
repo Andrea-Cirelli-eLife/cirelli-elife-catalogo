@@ -1,0 +1,9 @@
+id: desenzano-del-garda
+# Andrea Cirelli, 10 ottobre 2026: il Master 1 di dicembre è a Desenzano. Struttura e
+# indirizzo non sono ancora arrivati: finché mancano, le pagine mostrano la città.
+cap: "25015"
+citta: Desenzano del Garda
+provincia: BS
+daConfermare:
+  - Nome della struttura
+  - Indirizzo

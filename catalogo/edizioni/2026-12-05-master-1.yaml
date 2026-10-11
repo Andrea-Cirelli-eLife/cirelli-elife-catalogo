@@ -1,0 +1,15 @@
+id: 2026-12-05-master-1
+corso: master-1
+# Calendario eLife 2026/2027 (PDF di Cecilia, ottobre 2026), dove si chiama «La
+# Tripnosi nella relazione con te stesso, gli altri e il mondo». Andrea Cirelli,
+# 10 ottobre: è il Master 1, a Desenzano. Cecilia, 10 ottobre: va nel calendario.
+dal: 2026-12-05
+al: 2026-12-07
+sede: desenzano-del-garda
+formato: residenziale
+posti: 30
+stato: aperta
+note: Master residenziale di tre giorni.
+daConfermare:
+  - Sede
+  - Posti
