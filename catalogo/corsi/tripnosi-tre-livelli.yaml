@@ -5,6 +5,9 @@ famiglia: corso
 ordine: 7
 durataGiorni: 4
 durataNota: 2 + 2 giorni, oppure 4 giorni in formato residenziale
+# Documento di Cecilia del 10 ottobre: tra parentesi accanto al titolo nel «Comprende»
+# del percorso annuale.
+certificazione: Certificazione di Esperto nelle tecniche di ipnosi dinamica ed ericsoniana
 prezzo:
   pieno: 935
 includeConsulenza: true

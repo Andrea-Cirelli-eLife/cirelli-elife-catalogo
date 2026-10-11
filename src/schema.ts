@@ -44,6 +44,8 @@ export const Corso = z.object({
   durataGiorni: z.number().positive(),
   /** Sfumature che il solo numero di giorni non regge: "2+2 giorni oppure 4 residenziali". */
   durataNota: z.string().optional(),
+  /** Il titolo che il corso rilascia, da mostrare accanto al suo nome negli elenchi. */
+  certificazione: z.string().optional(),
   /** Assente per i master, che a listino non si vendono singolarmente. */
   prezzo: Prezzo.optional(),
   includeConsulenza: z.boolean().default(false),
@@ -140,8 +142,9 @@ export const Percorso = z.object({
 
 export const Sede = z.object({
   id: Slug,
-  nome: z.string().min(1),
-  indirizzo: z.string().min(1),
+  /** Facoltativi finché la sede non è fissata: le pagine mostrano allora la sola città. */
+  nome: z.string().min(1).optional(),
+  indirizzo: z.string().min(1).optional(),
   cap: z.string().regex(/^\d{5}$/),
   citta: z.string().min(1),
   provincia: z.string().length(2),
