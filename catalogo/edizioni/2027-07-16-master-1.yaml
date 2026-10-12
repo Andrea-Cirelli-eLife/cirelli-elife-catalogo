@@ -1,0 +1,15 @@
+id: 2027-07-16-master-1
+corso: master-1
+# Calendario eLife 2026/2027 (PDF di Cecilia, ottobre 2026): «replica del residenziale
+# di dicembre». Cecilia, 12 ottobre: è un Master 1. La sede la dà per uguale a
+# dicembre la parola «replica»: da confermare.
+dal: 2027-07-16
+al: 2027-07-18
+sede: desenzano-del-garda
+formato: residenziale
+posti: 30
+stato: aperta
+note: Master residenziale di tre giorni.
+daConfermare:
+  - Sede
+  - Posti
