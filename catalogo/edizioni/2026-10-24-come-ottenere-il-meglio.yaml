@@ -8,7 +8,8 @@ corso: come-ottenere-il-meglio
 # richiesta con il vecchio (2026-10-24-centratura-emotiva) era una prova di Dario.
 dal: 2026-10-24
 al: 2026-10-24
-sede: brescia-tenuta-urbana
+# Andrea, 12 ottobre 2026: nella sede di eLife, perché Tenuta Urbana non è disponibile.
+sede: brescia-elife
 formato: presenza
 posti: 30
 # Quota e early bird da Andrea, 10 ottobre 2026: 150 €, 100 € fino a sabato 17.
@@ -21,5 +22,4 @@ note: >-
   gratuita anche per loro.
 daConfermare:
   - "Promozione «porta tre persone»: vale per tutti o solo per chi era all'11 ottobre?"
-  - Sede (Tenuta Urbana?)
   - Docente
