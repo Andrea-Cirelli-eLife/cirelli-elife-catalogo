@@ -1,11 +1,9 @@
 id: desenzano-del-garda
 # Andrea Cirelli, 10 ottobre 2026: il Master 1 di dicembre è a Desenzano. Struttura e
-# indirizzo da Cecilia, 11 ottobre, nel gruppo WhatsApp. Il CAP 25010 è quello della
-# zona di San Martino della Battaglia, frazione di Desenzano.
+# indirizzo da Cecilia nel gruppo WhatsApp, l'11 ottobre; il civico il 12. Il CAP 25010
+# è quello della zona di San Martino della Battaglia, frazione di Desenzano.
 nome: Agriturismo Corte Arcadia
-indirizzo: via del Pilandro
+indirizzo: via del Pilandro 1
 cap: "25010"
 citta: Desenzano del Garda
 provincia: BS
-daConfermare:
-  - Numero civico
