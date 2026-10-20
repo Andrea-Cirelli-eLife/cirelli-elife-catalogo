@@ -16,10 +16,12 @@ posti: 30
 earlyBirdFino: 2026-10-17
 stato: aperta
 urlIscrizione: https://www.elifelab.it/eventi/24-ottobre
+# `note` è pubblico: andreacirelli.it lo stampa sotto la data del corso. Promozione
+# decisa nella call con lo staff, confermata il 9 ottobre e chiarita da Andrea il 20:
+# gratis solo chi porta altre tre persone, le tre pagano la quota.
 note: >-
-  Dalle 9:30 alle 17:30. Promozione decisa nella call con lo staff e confermata
-  il 9 ottobre: la giornata è in regalo a chi porta altre tre persone, ed è
-  gratuita anche per loro.
+  Dalle 9:30 alle 17:30. Chi si iscrive insieme ad altre tre persone partecipa
+  gratis; per le altre tre vale la quota.
 daConfermare:
   - "Promozione «porta tre persone»: vale per tutti o solo per chi era all'11 ottobre?"
   - Docente
