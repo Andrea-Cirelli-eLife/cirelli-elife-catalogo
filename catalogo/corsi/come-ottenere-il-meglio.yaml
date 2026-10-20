@@ -12,7 +12,8 @@ prezzo:
   early: 100
 includeConsulenza: false
 porta: null
-docenti: []
+# Andrea, 20 ottobre 2026: la giornata la conduce lui.
+docenti: [andrea-cirelli]
 # Testo: «TESTI PER LANDING 24_10» di Cecilia, 9 ottobre 2026 (cartella LANDING).
 # Trascritto con le regole di modifiche-07-10.md; corretti «la maggior parte della volte»
 # e la grafia delle tipologie, che il documento scrive sia col trattino sia senza.
@@ -89,4 +90,3 @@ programma:
   - "Integrare e mettere in pratica: come utilizzare nella vita quotidiana ciò che hai appreso. Condivisione delle esperienze e conclusioni"
 daConfermare:
   - Quota, ed eventuale early bird
-  - Docente

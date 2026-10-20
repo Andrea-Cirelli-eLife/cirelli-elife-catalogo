@@ -9,7 +9,8 @@ corso: come-ottenere-il-meglio
 dal: 2026-10-24
 al: 2026-10-24
 # Andrea, 12 ottobre 2026: nella sede di eLife, perché Tenuta Urbana non è disponibile.
-sede: brescia-elife
+# Cecilia, 20 ottobre 2026: si tiene all'Hotel Touring di Coccaglio.
+sede: coccaglio-hotel-touring
 formato: presenza
 posti: 30
 # Quota e early bird da Andrea, 10 ottobre 2026: 150 €, 100 € fino a sabato 17.
@@ -18,10 +19,10 @@ stato: aperta
 urlIscrizione: https://www.elifelab.it/eventi/24-ottobre
 # `note` è pubblico: andreacirelli.it lo stampa sotto la data del corso. Promozione
 # decisa nella call con lo staff, confermata il 9 ottobre e chiarita da Andrea il 20:
-# gratis solo chi porta altre tre persone, le tre pagano la quota.
+# gratis solo chi porta altre tre persone, le tre pagano la quota intera di 150 €
+# (Andrea, sempre il 20).
 note: >-
   Dalle 9:30 alle 17:30. Chi si iscrive insieme ad altre tre persone partecipa
-  gratis; per le altre tre vale la quota.
+  gratis; per le altre tre la quota è di 150 €.
 daConfermare:
   - "Promozione «porta tre persone»: vale per tutti o solo per chi era all'11 ottobre?"
-  - Docente
