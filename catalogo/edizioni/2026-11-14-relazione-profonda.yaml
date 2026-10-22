@@ -1,0 +1,26 @@
+id: 2026-11-14-relazione-profonda
+corso: relazione-profonda
+# Andrea l'aveva spostata qui dal 17 ottobre il 7 ottobre 2026; tolta il 10 ottobre,
+# quando il 14 novembre sembrava la Centratura emotiva «mandata per errore». Torna il 22
+# ottobre 2026 con il documento di Cecilia «14 novembre: Tripnosi: entra in relazione
+# profonda con l'altro», che dà sede e orari, e la sua richiesta di una landing.
+dal: 2026-11-14
+al: 2026-11-14
+# Documento di Cecilia: «Sede - BRESCIA, via Solferino 55».
+sede: brescia-elife
+formato: presenza
+posti: 30
+# Il documento non dà la quota: le pagine non mostrano un prezzo finché non arriva.
+quotaDaConfermare: true
+stato: aperta
+urlIscrizione: https://www.elifelab.it/eventi/14-novembre
+# `note` è pubblico: andreacirelli.it lo stampa sotto la data del corso. Promozione
+# «porta tre persone» come il 24 ottobre, decisa da Dario il 22: la cifra delle tre
+# persone si aggiunge quando c'è la quota.
+note: >-
+  Dalle 9:30 alle 17:30. Chi si iscrive insieme ad altre tre persone partecipa
+  gratis.
+daConfermare:
+  - Quota ed early bird
+  - Docente
+  - "Promozione «porta tre persone»: vale come il 24 ottobre?"
