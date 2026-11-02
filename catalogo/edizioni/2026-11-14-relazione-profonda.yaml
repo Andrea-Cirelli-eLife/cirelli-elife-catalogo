@@ -9,19 +9,22 @@ al: 2026-11-14
 # Documento di Cecilia: «Sede - BRESCIA, via Solferino 55».
 sede: brescia-elife
 formato: presenza
+# Capienza interna: dal 2 novembre 2026 le pagine non la mostrano (Andrea, «Toglieremo
+# del numero di 30 iscritti»).
 posti: 30
 # Quota di Andrea, 22 ottobre 2026 alle 13:58: «Teniamo 280 e 220 in early» (il listino
 # del corso). Scadenza dell'early bird non data: messa a sabato 7 novembre, una settimana
-# prima come per il 24 ottobre (Dario, 2 novembre). Lo sconto del 50% per chi era in aula
+# prima come per il 24 ottobre (Dario, 2 novembre), annunciata nel gruppo e tenuta da
+# Andrea lo stesso giorno («lasciare Larry Bird»). Lo sconto del 50% per chi era in aula
 # l'11 ottobre resta fuori dal sito: lo staff lo comunica a voce.
 earlyBirdFino: 2026-11-07
 stato: aperta
-urlIscrizione: https://www.elifelab.it/eventi/14-novembre
+# Dal 2 novembre 2026 la landing ha due edizioni (14 e 20 novembre) e un indirizzo
+# senza data, da stampare nel QR; /eventi/14-novembre vi rimanda.
+urlIscrizione: https://www.elifelab.it/eventi/ipnosi-nella-comunicazione
 # `note` è pubblico: andreacirelli.it lo stampa sotto la data del corso. Niente
 # promozione «porta tre persone»: Andrea il 22 ottobre alle 14:05, «io non lo farei più»,
 # semmai passaparola a voce con chi è già in confidenza.
 note: Dalle 9:30 alle 17:30.
 daConfermare:
-  - "Scadenza early bird: sabato 7 novembre, per analogia con il 24 ottobre"
   - "Docente: Andrea Cirelli, come il 24 ottobre"
-  - "Niente promozione «porta tre persone»: lettura del messaggio di Andrea del 22 ottobre"
