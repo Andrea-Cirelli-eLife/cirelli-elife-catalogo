@@ -12,12 +12,11 @@ formato: presenza
 # Capienza interna, la stessa del 14. Le pagine non la mostrano (Andrea, 2 novembre:
 # «Toglieremo del numero di 30 iscritti»).
 posti: 30
-# Una settimana prima, come il 14 (proposta di Dario del 2 novembre). Andrea tiene
-# l'early bird «per coinvolgere persone che non sono imprenditori».
+# Una settimana prima, come il 14 (proposta di Dario del 2 novembre, confermata da
+# Cecilia nel gruppo: «Tutto ok il resto»). Andrea tiene l'early bird «per coinvolgere
+# persone che non sono imprenditori». Nessun numero minimo di iscritti per tenere il 20:
+# Cecilia, 2 novembre, «per noi non è importante».
 earlyBirdFino: 2026-11-13
 stato: aperta
 urlIscrizione: https://www.elifelab.it/eventi/ipnosi-nella-comunicazione
 note: Dalle 9:30 alle 17:30.
-daConfermare:
-  - "Scadenza early bird: venerdì 13 novembre, proposta nel gruppo il 2 novembre"
-  - "Numero minimo di iscritti per tenere il 20, da verificare entro mercoledì 11"
