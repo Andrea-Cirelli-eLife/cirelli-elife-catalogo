@@ -10,17 +10,18 @@ al: 2026-11-14
 sede: brescia-elife
 formato: presenza
 posti: 30
-# Il documento non dà la quota: le pagine non mostrano un prezzo finché non arriva.
-quotaDaConfermare: true
+# Quota di Andrea, 22 ottobre 2026 alle 13:58: «Teniamo 280 e 220 in early» (il listino
+# del corso). Scadenza dell'early bird non data: messa a sabato 7 novembre, una settimana
+# prima come per il 24 ottobre (Dario, 2 novembre). Lo sconto del 50% per chi era in aula
+# l'11 ottobre resta fuori dal sito: lo staff lo comunica a voce.
+earlyBirdFino: 2026-11-07
 stato: aperta
 urlIscrizione: https://www.elifelab.it/eventi/14-novembre
-# `note` è pubblico: andreacirelli.it lo stampa sotto la data del corso. Promozione
-# «porta tre persone» come il 24 ottobre, decisa da Dario il 22: la cifra delle tre
-# persone si aggiunge quando c'è la quota.
-note: >-
-  Dalle 9:30 alle 17:30. Chi si iscrive insieme ad altre tre persone partecipa
-  gratis.
+# `note` è pubblico: andreacirelli.it lo stampa sotto la data del corso. Niente
+# promozione «porta tre persone»: Andrea il 22 ottobre alle 14:05, «io non lo farei più»,
+# semmai passaparola a voce con chi è già in confidenza.
+note: Dalle 9:30 alle 17:30.
 daConfermare:
-  - Quota ed early bird
-  - Docente
-  - "Promozione «porta tre persone»: vale come il 24 ottobre?"
+  - "Scadenza early bird: sabato 7 novembre, per analogia con il 24 ottobre"
+  - "Docente: Andrea Cirelli, come il 24 ottobre"
+  - "Niente promozione «porta tre persone»: lettura del messaggio di Andrea del 22 ottobre"

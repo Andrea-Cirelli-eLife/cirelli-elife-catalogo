@@ -14,7 +14,8 @@ prezzo:
   early: 220
 includeConsulenza: true
 porta: altri
-docenti: []
+# Andrea, 2 novembre 2026 (per analogia con il 24 ottobre, da confermare): conduce lui.
+docenti: [andrea-cirelli]
 # Testo del documento di Cecilia del 22 ottobre 2026, parola per parola: la citazione e la
 # domanda in apertura sono nuove; il capoverso «Per poter avere una relazione appagante…»,
 # mandato da Cecilia l'8 ottobre, nel documento non c'è più. Il resto è il testo corretto
