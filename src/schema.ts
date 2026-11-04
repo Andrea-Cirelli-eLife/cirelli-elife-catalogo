@@ -34,6 +34,28 @@ export const Formato = z.enum(["presenza", "residenziale", "serale", "online"]);
 
 export const StatoEdizione = z.enum(["bozza", "aperta", "esaurita", "chiusa"]);
 
+/**
+ * La sessione individuale compresa nella quota di un corso, con i testi approvati
+ * dallo staff. `includeConsulenza` resta il sì/no di listino: le pagine mostrano
+ * qualcosa solo quando c'è questo campo.
+ */
+export const SessioneInclusa = z.object({
+  /** Una riga sotto il prezzo, nelle pagine che vendono (elifelab.it): può citare il valore. */
+  breve: z.string().min(1),
+  /** La riga di andreacirelli.it, che non mostra importi. Senza, lì non compare nulla. */
+  breveVetrina: z.string().min(1).optional(),
+  /** Il capoverso del riquadro «Cosa comprende la quota». */
+  testo: z.string().min(1),
+  /** I dettagli come dati. Le pagine mostrano i testi, che li riportano già: questi
+      servono alle schede evento e alle campagne. */
+  durataMinuti: z.number().int().positive().optional(),
+  modalita: z.enum(["online", "presenza"]).optional(),
+  /** Entro quanti giorni dalla fine del corso va usata. */
+  entroGiorni: z.number().int().positive().optional(),
+  /** Valore indicativo in euro. */
+  valore: z.number().int().positive().optional(),
+});
+
 /** Anagrafica didattica di un corso, indipendente dalle date in cui viene erogato. */
 export const Corso = z.object({
   id: Slug,
@@ -49,6 +71,7 @@ export const Corso = z.object({
   /** Assente per i master, che a listino non si vendono singolarmente. */
   prezzo: Prezzo.optional(),
   includeConsulenza: z.boolean().default(false),
+  sessioneInclusa: SessioneInclusa.optional(),
   prerequisiti: z.array(Slug).default([]),
   porta: Porta.nullable().default(null),
   docenti: z.array(Slug).default([]),
@@ -171,6 +194,7 @@ export type Percorso = z.infer<typeof Percorso>;
 export type Sede = z.infer<typeof Sede>;
 export type Docente = z.infer<typeof Docente>;
 export type Prezzo = z.infer<typeof Prezzo>;
+export type SessioneInclusa = z.infer<typeof SessioneInclusa>;
 export type Famiglia = z.infer<typeof Famiglia>;
 export type Formato = z.infer<typeof Formato>;
 export type StatoEdizione = z.infer<typeof StatoEdizione>;

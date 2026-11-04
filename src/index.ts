@@ -28,5 +28,6 @@ export type {
   Porta,
   Prezzo,
   Sede,
+  SessioneInclusa,
   StatoEdizione,
 } from "./schema.ts";

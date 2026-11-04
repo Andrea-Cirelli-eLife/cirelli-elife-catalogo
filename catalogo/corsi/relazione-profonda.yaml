@@ -13,6 +13,35 @@ prezzo:
   pieno: 280
   early: 220
 includeConsulenza: true
+# Cecilia nel gruppo, 3 novembre 2026 alle 11:12, decisa con Andrea: «Nel costo del
+# workshop è inclusa una sessione individuale con il Dott. Andrea Cirelli e/o con un
+# professionista del suo staff. Questo prezioso complemento alla didattica potrà essere
+# usato per sbloccare un disagio emotivo che minerebbe l'applicazione efficace del
+# metodo. La stessa sessione per chi non ha esigenze di rafforzamento della sicurezza
+# potrà essere richiesta come aiuto nell'applicazione del metodo appena appreso in un
+# caso specifico personale di gestione del conflitto o di persuasione.»
+# I dettagli li dà Cecilia nel gruppo WhatsApp il 4 novembre 2026 alle 9:55, e sono anche
+# nella scheda eventi: 30 minuti, online, valore 150 €, da usare entro 30 giorni dal
+# workshop, meglio prenotarla a ridosso della giornata.
+# Vale solo per chi paga la quota piena o l'early bird: non per lo sconto del 50% di chi
+# era in aula l'11 ottobre, né per la persona invitata con il bigliettino. Le esclusioni
+# restano fuori dal sito, come i due sconti.
+# I tre testi sono quelli approvati dal gruppo, passati da Dario il 4 novembre 2026:
+# «e/o» diventa «o»; la riga di andreacirelli.it non ha il valore, perché il sito non
+# mostra importi.
+sessioneInclusa:
+  breve: Inclusa una sessione individuale online del valore di 150 €
+  breveVetrina: Comprende una sessione individuale online con il Dott. Andrea Cirelli o con un professionista del suo staff
+  testo: >-
+    Dopo la giornata puoi prenotare una sessione individuale online di 30 minuti, del
+    valore di 150 €, con il Dott. Andrea Cirelli o con un professionista del suo staff.
+    Puoi usarla per applicare il metodo a un tuo caso di conflitto o di persuasione,
+    oppure per lavorare su un blocco emotivo che ti frena. Va usata entro 30 giorni dal
+    workshop: conviene fissarla a pochi giorni dalla giornata.
+  durataMinuti: 30
+  modalita: online
+  entroGiorni: 30
+  valore: 150
 porta: altri
 # Andrea, 2 novembre 2026 (per analogia con il 24 ottobre, da confermare): conduce lui.
 docenti: [andrea-cirelli]
@@ -82,4 +111,3 @@ programma:
 daConfermare:
   - Docente
   - Quota (il listino dice 280 €, il workshop del 24 ottobre costa 150 €)
-  - Cosa comprende esattamente la consulenza inclusa

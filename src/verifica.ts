@@ -105,6 +105,9 @@ export function verificaCatalogo(grezzo: Grezzo): Catalogo {
     if (c.prerequisiti.includes(c.id)) {
       problemi.push(`corso "${c.id}": è prerequisito di se stesso`);
     }
+    if (c.sessioneInclusa && !c.includeConsulenza) {
+      problemi.push(`corso "${c.id}": ha una sessione inclusa ma includeConsulenza è false`);
+    }
   }
 
   for (const e of edizioni) {
