@@ -1,0 +1,18 @@
+id: 2026-12-17-open-day-scuola
+corso: open-day-scuola
+# Scheda eventi di Cecilia, 13 novembre 2026: «webinar OPEN DAY», sottotitolo «Scuola di
+# coaching», 17/12/2026, 20/21.30, online, gratuito, conduce il Dott. Andrea Cirelli.
+# Data scelta alla riunione del 12 novembre (17 dicembre o 7 gennaio).
+dal: 2026-12-17
+al: 2026-12-17
+orario:
+  inizio: "20:00"
+  fine: "21:30"
+formato: online
+# Capienza della piattaforma: la pagina non la mostra.
+posti: 100
+stato: aperta
+urlIscrizione: https://www.elifelab.it/eventi/open-day-17-dicembre
+daConfermare:
+  - Piattaforma del webinar e invio del link
+  - Numero massimo di partecipanti

@@ -52,7 +52,13 @@ export function prezzoCorrente(
   return { importo: prezzo.pieno, tariffa: "pieno", risparmio: 0 };
 }
 
-/** Un'edizione è acquistabile se è aperta e non è già cominciata. */
+/** «dalle 20:00 alle 21:30», se l'edizione ha un orario. */
+export function formattaOrario(edizione: Edizione): string | undefined {
+  return edizione.orario ? `dalle ${edizione.orario.inizio} alle ${edizione.orario.fine}` : undefined;
+}
+
+/** Un'edizione è acquistabile se è aperta e non è già cominciata. Vale anche per
+ *  quelle gratuite: ci si iscrive allo stesso modo. */
 export function acquistabile(edizione: Edizione, oggi: string = oggiISO()): boolean {
   return edizione.stato === "aperta" && edizione.dal > oggi;
 }

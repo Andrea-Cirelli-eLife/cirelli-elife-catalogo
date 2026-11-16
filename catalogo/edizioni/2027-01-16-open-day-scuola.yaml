@@ -1,0 +1,18 @@
+id: 2027-01-16-open-day-scuola
+corso: open-day-scuola
+# Scheda eventi di Cecilia, 13 novembre 2026: «OPEN DAY», 16/01/2027, Brescia, conduce
+# il Dott. Andrea Cirelli. Orario, sede e programma non ci sono ancora (Dario, 16
+# novembre 2026: segnaposto evidente in pagina). Era già nel calendario 2026/2027 di
+# ottobre (call-staff-ottobre.md).
+dal: 2027-01-16
+al: 2027-01-16
+sede: brescia
+formato: presenza
+posti: 30
+stato: aperta
+urlIscrizione: https://www.elifelab.it/eventi/open-day-16-gennaio
+daConfermare:
+  - Orario
+  - Sede
+  - Programma
+  - Posti

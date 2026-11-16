@@ -1,0 +1,9 @@
+id: brescia
+# Una sede di cui si sa solo la città: le pagine mostrano «Brescia» finché l'indirizzo
+# non è fissato. Per l'open day del 16 gennaio 2027 (scheda eventi di Cecilia, 13
+# novembre 2026: «Brescia»). CAP generico del comune.
+citta: Brescia
+cap: "25100"
+provincia: BS
+daConfermare:
+  - Indirizzo

@@ -105,6 +105,9 @@ export function verificaCatalogo(grezzo: Grezzo): Catalogo {
     if (c.prerequisiti.includes(c.id)) {
       problemi.push(`corso "${c.id}": è prerequisito di se stesso`);
     }
+    if (c.gratuito && c.prezzo) {
+      problemi.push(`corso "${c.id}": è gratuito ma ha un prezzo`);
+    }
     if (c.sessioneInclusa && !c.includeConsulenza) {
       problemi.push(`corso "${c.id}": ha una sessione inclusa ma includeConsulenza è false`);
     }
@@ -112,12 +115,15 @@ export function verificaCatalogo(grezzo: Grezzo): Catalogo {
 
   for (const e of edizioni) {
     verificaRiferimenti(`edizione "${e.id}"`, "corso", [e.corso], idCorsi, problemi);
-    verificaRiferimenti(`edizione "${e.id}"`, "sede", [e.sede], idSedi, problemi);
+    if (e.sede) verificaRiferimenti(`edizione "${e.id}"`, "sede", [e.sede], idSedi, problemi);
     if (e.docenti) {
       verificaRiferimenti(`edizione "${e.id}"`, "docenti", e.docenti, idDocenti, problemi);
     }
     const corso = corsi.find((c) => c.id === e.corso);
-    if (corso && !corso.prezzo && !e.prezzo && !e.quotaDaConfermare) {
+    if (corso?.gratuito && e.prezzo) {
+      problemi.push(`edizione "${e.id}": il corso "${e.corso}" è gratuito ma l'edizione ha un prezzo`);
+    }
+    if (corso && !corso.gratuito && !corso.prezzo && !e.prezzo && !e.quotaDaConfermare) {
       problemi.push(
         `edizione "${e.id}": né il corso "${e.corso}" né l'edizione hanno un prezzo`,
       );

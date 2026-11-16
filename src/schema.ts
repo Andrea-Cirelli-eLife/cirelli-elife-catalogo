@@ -25,7 +25,13 @@ export const Famiglia = z.enum([
   "workshop-porta",
   "corso",
   "master",
+  /** Incontri gratuiti di presentazione della Scuola (16 novembre 2026): si entra
+      con l'iscrizione, senza quota. Non stanno nel listino né fra i corsi. */
+  "open-day",
 ]);
+
+/** Ora del giorno, «20:00». */
+export const Ora = z.string().regex(/^([01]\d|2[0-3]):[0-5]\d$/, "deve essere un orario HH:MM");
 
 /** Le due "porte" d'ingresso al percorso: ottenere il meglio da sé o dagli altri. */
 export const Porta = z.enum(["se", "altri"]);
@@ -70,6 +76,9 @@ export const Corso = z.object({
   certificazione: z.string().optional(),
   /** Assente per i master, che a listino non si vendono singolarmente. */
   prezzo: Prezzo.optional(),
+  /** Si partecipa senza quota: le edizioni non hanno prezzo e le pagine non ne
+      mostrano. Incompatibile con `prezzo`. */
+  gratuito: z.boolean().default(false),
   includeConsulenza: z.boolean().default(false),
   sessioneInclusa: SessioneInclusa.optional(),
   prerequisiti: z.array(Slug).default([]),
@@ -90,7 +99,11 @@ export const Edizione = z
     corso: Slug,
     dal: DataISO,
     al: DataISO,
-    sede: Slug,
+    /** Orario d'inizio e di fine, quando è fissato. Senza, le pagine non lo mostrano
+        (o usano il testo della landing). */
+    orario: z.object({ inizio: Ora, fine: Ora }).optional(),
+    /** Obbligatoria, tranne per le edizioni online. */
+    sede: Slug.optional(),
     formato: Formato,
     posti: z.number().int().positive(),
     earlyBirdFino: DataISO.optional(),
@@ -110,6 +123,14 @@ export const Edizione = z
   })
   .refine((e) => e.al >= e.dal, {
     message: "la data di fine non può precedere quella di inizio",
+  })
+  .refine((e) => e.sede !== undefined || e.formato === "online", {
+    message: "serve una sede, tranne per le edizioni online",
+    path: ["sede"],
+  })
+  .refine((e) => !e.orario || e.orario.fine > e.orario.inizio, {
+    message: "l'orario di fine deve seguire quello d'inizio",
+    path: ["orario"],
   })
   .refine((e) => !e.earlyBirdFino || e.earlyBirdFino < e.dal, {
     message: "l'early bird deve scadere prima dell'inizio dell'edizione",
@@ -182,6 +203,8 @@ export const Sede = z.object({
 export const Docente = z.object({
   id: Slug,
   nome: z.string().min(1),
+  /** «Dott.»: le pagine lo mettono davanti al nome, che resta senza titolo. */
+  titolo: z.string().min(1).optional(),
   ruolo: z.string().optional(),
   bio: z.string().optional(),
   foto: z.string().optional(),

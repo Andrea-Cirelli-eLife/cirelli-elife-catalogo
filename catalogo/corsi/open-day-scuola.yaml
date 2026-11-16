@@ -1,0 +1,18 @@
+id: open-day-scuola
+# Gli open day della Scuola di Coaching (scheda eventi di Cecilia, 13 novembre 2026:
+# «webinar OPEN DAY — Scuola di coaching» il 17 dicembre e «OPEN DAY» il 16 gennaio).
+# Sono l'ingresso alla Scuola, che parte il 6 febbraio 2027 con i tre percorsi:
+# gratuiti, con iscrizione (Dario, 16 novembre 2026). Non stanno nel listino né fra i
+# corsi: ognuno ha la sua pagina su elifelab.it (src/lib/eventi/landing.ts).
+titolo: Open day della Scuola di Coaching
+famiglia: open-day
+ordine: 90
+# Il webinar dura un'ora e mezza; la durata del 16 gennaio non c'è ancora. Il numero di
+# giorni serve solo agli elenchi dei corsi, dove gli open day non compaiono.
+durataGiorni: 1
+durataNota: Un incontro gratuito, online o in presenza
+gratuito: true
+docenti:
+  - andrea-cirelli
+daConfermare:
+  - Testo di presentazione dell'open day (oggi è un testo provvisorio di VEDA)
