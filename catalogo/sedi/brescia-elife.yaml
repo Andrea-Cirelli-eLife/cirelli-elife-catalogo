@@ -2,7 +2,9 @@ id: brescia-elife
 # Andrea Cirelli, 12 ottobre 2026: Tenuta Urbana non è disponibile per il workshop
 # del 24 ottobre, che si tiene nella sede di eLife.
 # Cecilia, documento «modifiche 14 ottobre»: «APS» dopo eLife.
-nome: Associazione Scuola di formazione eLife APS
+# Dario, 16 novembre 2026: il nome è la ragione sociale, come nei blocchi legali di
+# elifelab.it. Via Solferino 55 è anche la sede legale dal 9 novembre.
+nome: Entanglement Life APS
 indirizzo: via Solferino 55
 cap: "25121"
 citta: Brescia
