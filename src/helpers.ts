@@ -8,6 +8,19 @@ export function oggiISO(adesso: Date = new Date()): string {
   return new Intl.DateTimeFormat("sv-SE", { timeZone: "Europe/Rome" }).format(adesso);
 }
 
+/**
+ * Aliquota IVA dei prezzi pubblici. È l'unico punto in cui sta: un prezzo
+ * `iva: esclusa` diventa finale qui, e i siti (pagine, backoffice, pagamenti)
+ * leggono solo il risultato. Il valore da dicembre 2026 lo decide eLife con il
+ * commercialista (16 novembre 2026).
+ */
+export const ALIQUOTA_IVA = 0.22;
+
+/** Un importo del catalogo come lo paga chi compra: con l'IVA, arrotondato all'euro. */
+export function conIva(importo: number, iva: "inclusa" | "esclusa" = "inclusa"): number {
+  return iva === "esclusa" ? Math.round(importo * (1 + ALIQUOTA_IVA)) : importo;
+}
+
 export type Tariffa = "early" | "pieno";
 
 export interface PrezzoCorrente {
@@ -20,8 +33,8 @@ export interface PrezzoCorrente {
 }
 
 /**
- * Prezzo applicabile a un'edizione in una data data. L'eventuale prezzo
- * dell'edizione sovrascrive quello di listino del corso; l'early bird vale
+ * Prezzo applicabile a un'edizione in una data data, IVA compresa. L'eventuale
+ * prezzo dell'edizione sovrascrive quello di listino del corso; l'early bird vale
  * fino a tutto il giorno di scadenza.
  */
 export function prezzoCorrente(
@@ -41,15 +54,17 @@ export function prezzoCorrente(
     edizione.earlyBirdFino !== undefined &&
     oggi <= edizione.earlyBirdFino;
 
+  const pieno = conIva(prezzo.pieno, prezzo.iva);
   if (earlyAttivo) {
+    const early = conIva(prezzo.early!, prezzo.iva);
     return {
-      importo: prezzo.early!,
+      importo: early,
       tariffa: "early",
       scadenzaEarly: edizione.earlyBirdFino,
-      risparmio: prezzo.pieno - prezzo.early!,
+      risparmio: pieno - early,
     };
   }
-  return { importo: prezzo.pieno, tariffa: "pieno", risparmio: 0 };
+  return { importo: pieno, tariffa: "pieno", risparmio: 0 };
 }
 
 /** «dalle 20:00 alle 21:30», se l'edizione ha un orario. */

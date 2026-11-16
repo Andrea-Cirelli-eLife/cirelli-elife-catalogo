@@ -24,6 +24,7 @@ export type {
   Edizione,
   Famiglia,
   Formato,
+  GiornataProgramma,
   Percorso,
   Porta,
   Prezzo,

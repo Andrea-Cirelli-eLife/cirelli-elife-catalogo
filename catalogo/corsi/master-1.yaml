@@ -4,8 +4,14 @@ sottotitolo: Il modello della Tripnosi per superare il disagio, evolvere e suppo
 famiglia: master
 ordine: 10
 durataGiorni: 3
+# Scheda eventi di Cecilia, 13 novembre 2026: «750,00 + IVA». Il prezzo pubblico si
+# mostra finale, 915 € IVA inclusa, per il 5-7 dicembre e per il 16-18 luglio (Dario,
+# 16 novembre 2026). Prezzo soci e promo «divulgazione» non si pubblicano: restano
+# nella scheda, colonna «Sconti riservati».
 prezzo:
   pieno: 750
+  iva: esclusa
+esponiPrezzo: true
 includeConsulenza: false
 docenti: [andrea-cirelli]
 # Testo: «TESTI FINALI DEI CORSI», 7 ottobre 2026.
@@ -57,5 +63,6 @@ programma:
   - I complessi, i difetti, i sigilli emotivi
   - "I principi non negoziabili dell'essere umano di: libertà, sogno, coscienza e destino"
   - "L'approccio analogico e strategico: dalla conoscenza all'azione"
-daConfermare:
-  - Se il prezzo di 750 € valga anche fuori dai percorsi, o solo dentro
+# Chiuso il 16 novembre 2026: il Master 1 si compra anche fuori dai percorsi, a 915 €
+# IVA inclusa (750 € + IVA).
+daConfermare: []

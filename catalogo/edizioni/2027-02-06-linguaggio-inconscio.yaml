@@ -4,11 +4,21 @@ corso: linguaggio-inconscio
 # il 31 ottobre – 1 novembre 2026.
 dal: 2027-02-06
 al: 2027-02-07
-sede: brescia-tenuta-urbana
+# Orario dalla scheda eventi di Cecilia del 13 novembre 2026.
+orario:
+  inizio: "09:30"
+  fine: "17:30"
+# Scheda eventi di Cecilia, 13 novembre 2026: sede «Brescia», senza indirizzo. Al posto
+# di Tenuta Urbana, che era un'ipotesi (Dario, 16 novembre 2026).
+sede: brescia
 formato: presenza
 posti: 30
 stato: aperta
 note: Primo weekend dell'anno formativo 2026/2027.
+# Scheda eventi di Cecilia, 13 novembre 2026: «440 + 1 consulenza con collaboratori».
+# La consulenza resta il sì/no `includeConsulenza` del corso: in pagina non compare
+# finché manca il testo approvato (Dario, 16 novembre 2026).
 daConfermare:
   - Sede
+  - "Testo della consulenza inclusa: una, con i collaboratori (scheda del 13 novembre)"
   - "Early bird temporaneo, se si vuole: importo e scadenza, partendo dal pieno di 440 €"

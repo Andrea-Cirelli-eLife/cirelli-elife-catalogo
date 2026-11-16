@@ -11,5 +11,30 @@ formato: residenziale
 posti: 30
 stato: aperta
 note: Master residenziale di tre giorni.
+# Il programma delle tre giornate: Dario, 16 novembre 2026, dal documento del Master.
+# Il pranzo di lunedì nel documento va dalle 13:15 alle 14:45 e si sovrappone all'aula
+# delle 14:30: in pagina è segnalato come da confermare.
+programma:
+  - giorno: 2026-12-05
+    voci:
+      - { ora: "10:00 – 13:00", attivita: "Aula con il Dott. Andrea Cirelli" }
+      - { ora: "13:15 – 14:45", attivita: "Pranzo" }
+      - { ora: "15:00 – 16:00", attivita: "Visita alla cantina Ca' dei Frati, dal 1939" }
+      - { ora: "16:30 – 19:00", attivita: "Aula" }
+      - { ora: "20:15", attivita: "Cena interattiva con esperimenti sociali" }
+  - giorno: 2026-12-06
+    voci:
+      - { ora: "9:30 – 13:00", attivita: "Aula" }
+      - { ora: "13:15 – 14:15", attivita: "Pranzo" }
+      - { ora: "14:30 – 17:30", attivita: "Aula" }
+      - { ora: "19:30 – 20:30", attivita: "Cena veloce" }
+      - { ora: "20:45 – 22:45", attivita: "Serata facoltativa «Entanglement, il potere della mente oltre i cinque sensi»" }
+  - giorno: 2026-12-07
+    voci:
+      - { ora: "9:30 – 13:00", attivita: "Aula" }
+      - { ora: "Da confermare", attivita: "Pranzo", daConfermare: "Nel programma va dalle 13:15 alle 14:45, ma l'aula riprende alle 14:30" }
+      - { ora: "14:30 – 17:30", attivita: "Aula e confronto conclusivo" }
+      - { ora: "A seguire", attivita: "Aperitivo interattivo per chi può fermarsi" }
 daConfermare:
   - Posti
+  - "Orario del pranzo di lunedì 7: 13:15-14:45 nel programma, ma l'aula riprende alle 14:30"

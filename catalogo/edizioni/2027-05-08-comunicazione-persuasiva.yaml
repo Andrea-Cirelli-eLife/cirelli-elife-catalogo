@@ -3,7 +3,13 @@ corso: comunicazione-persuasiva
 # Calendario eLife 2026/2027 (PDF di Cecilia, ottobre 2026).
 dal: 2027-05-08
 al: 2027-05-09
-sede: brescia-tenuta-urbana
+# Orario dalla scheda eventi di Cecilia del 13 novembre 2026.
+orario:
+  inizio: "09:30"
+  fine: "17:30"
+# Scheda eventi di Cecilia, 13 novembre 2026: sede «Brescia», senza indirizzo. Al posto
+# di Tenuta Urbana, che era un'ipotesi (Dario, 16 novembre 2026).
+sede: brescia
 formato: presenza
 posti: 30
 stato: aperta

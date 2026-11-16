@@ -15,6 +15,10 @@ export const Prezzo = z
   .object({
     pieno: z.number().int().positive(),
     early: z.number().int().positive().optional(),
+    /** Gli importi sono già con l'IVA (`inclusa`, come i workshop) oppure senza
+        (`esclusa`, come il Master 1: «750 € + IVA»). Le pagine mostrano sempre il
+        prezzo finale, calcolato da `prezzoCorrente` con `ALIQUOTA_IVA`. */
+    iva: z.enum(["inclusa", "esclusa"]).default("inclusa"),
   })
   .refine((p) => p.early === undefined || p.early < p.pieno, {
     message: "il prezzo early bird deve essere inferiore al prezzo pieno",
@@ -79,6 +83,9 @@ export const Corso = z.object({
   /** Si partecipa senza quota: le edizioni non hanno prezzo e le pagine non ne
       mostrano. Incompatibile con `prezzo`. */
   gratuito: z.boolean().default(false),
+  /** Il prezzo si mostra anche se il sito tiene la sua famiglia «su richiesta»
+      (Master 1, 16 novembre 2026: 915 € IVA inclusa). */
+  esponiPrezzo: z.boolean().default(false),
   includeConsulenza: z.boolean().default(false),
   sessioneInclusa: SessioneInclusa.optional(),
   prerequisiti: z.array(Slug).default([]),
@@ -90,6 +97,20 @@ export const Corso = z.object({
   obiettivi: z.array(z.string()).default([]),
   programma: z.array(z.string()).default([]),
   daConfermare: z.array(z.string()).default([]),
+});
+
+/** Una voce del programma di una giornata: «10:00 – 13:00», «Aula». */
+export const VoceProgramma = z.object({
+  ora: z.string().min(1),
+  attivita: z.string().min(1),
+  /** Un dubbio sulla voce, mostrato in pagina accanto a lei. */
+  daConfermare: z.string().optional(),
+});
+
+/** Il programma di un giorno di un'edizione di più giorni (Master 1, 5-7 dicembre 2026). */
+export const GiornataProgramma = z.object({
+  giorno: DataISO,
+  voci: z.array(VoceProgramma).min(1),
 });
 
 /** L'occorrenza datata di un corso: è questa che si vende. */
@@ -119,6 +140,8 @@ export const Edizione = z
         dell'evento. Senza, le card portano al calendario. */
     urlIscrizione: z.string().url().optional(),
     note: z.string().optional(),
+    /** Il programma giorno per giorno, quando lo staff l'ha dato. */
+    programma: z.array(GiornataProgramma).optional(),
     daConfermare: z.array(z.string()).default([]),
   })
   .refine((e) => e.al >= e.dal, {
@@ -221,4 +244,5 @@ export type SessioneInclusa = z.infer<typeof SessioneInclusa>;
 export type Famiglia = z.infer<typeof Famiglia>;
 export type Formato = z.infer<typeof Formato>;
 export type StatoEdizione = z.infer<typeof StatoEdizione>;
+export type GiornataProgramma = z.infer<typeof GiornataProgramma>;
 export type Porta = z.infer<typeof Porta>;
