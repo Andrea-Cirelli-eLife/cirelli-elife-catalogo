@@ -1,0 +1,17 @@
+id: 2027-12-04-master-1
+corso: master-1
+# Ipotesi di VEDA sul ritmo del 2026/2027 (Dario, 18 novembre 2026): come del Master di sabato 5 - lunedì 7 dicembre 2026.
+# Data, orario, sede e posti li conferma il team. In bozza non si compra, e il
+# calendario accademico dice «da definire».
+dal: 2027-12-04
+al: 2027-12-06
+sede: desenzano-del-garda
+formato: residenziale
+posti: 30
+stato: bozza
+note: Master residenziale di tre giorni.
+daConfermare:
+  - Data
+  - Orario
+  - Sede
+  - Posti

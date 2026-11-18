@@ -1,0 +1,17 @@
+id: 2027-11-13-relazione-profonda
+corso: relazione-profonda
+# Ipotesi di VEDA sul ritmo del 2026/2027 (Dario, 18 novembre 2026): come sabato 14 novembre 2026.
+# Data, orario, sede e posti li conferma il team. In bozza non si compra, e il
+# calendario accademico dice «da definire».
+dal: 2027-11-13
+al: 2027-11-13
+sede: brescia
+formato: presenza
+posti: 30
+stato: bozza
+note: Workshop d'ingresso all'anno 2027/2028.
+daConfermare:
+  - Data
+  - Orario
+  - Sede
+  - Posti

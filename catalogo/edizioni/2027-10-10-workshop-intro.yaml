@@ -1,0 +1,17 @@
+id: 2027-10-10-workshop-intro
+corso: workshop-intro
+# Ipotesi di VEDA sul ritmo del 2026/2027 (Dario, 18 novembre 2026): come domenica 11 ottobre 2026.
+# Data, orario, sede e posti li conferma il team. In bozza non si compra, e il
+# calendario accademico dice «da definire».
+dal: 2027-10-10
+al: 2027-10-10
+sede: brescia
+formato: presenza
+posti: 30
+stato: bozza
+note: Workshop d'ingresso all'anno 2027/2028.
+daConfermare:
+  - Data
+  - Orario
+  - Sede
+  - Posti

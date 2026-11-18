@@ -1,0 +1,19 @@
+id: 2027-12-16-open-day-scuola
+corso: open-day-scuola
+# Ipotesi di VEDA sul ritmo del 2026/2027 (Dario, 18 novembre 2026): come giovedì 17 dicembre 2026.
+# Data, orario, sede e posti li conferma il team. In bozza non si compra, e il
+# calendario accademico dice «da definire».
+dal: 2027-12-16
+al: 2027-12-16
+# Orario come il 17 dicembre 2026.
+orario:
+  inizio: "20:00"
+  fine: "21:30"
+formato: online
+posti: 100
+stato: bozza
+note: Open day online della Scuola di Coaching.
+daConfermare:
+  - Data
+  - Orario
+  - Posti

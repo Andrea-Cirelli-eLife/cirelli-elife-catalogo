@@ -1,0 +1,17 @@
+id: 2027-10-23-come-ottenere-il-meglio
+corso: come-ottenere-il-meglio
+# Ipotesi di VEDA sul ritmo del 2026/2027 (Dario, 18 novembre 2026): come sabato 24 ottobre 2026.
+# Data, orario, sede e posti li conferma il team. In bozza non si compra, e il
+# calendario accademico dice «da definire».
+dal: 2027-10-23
+al: 2027-10-23
+sede: brescia
+formato: presenza
+posti: 30
+stato: bozza
+note: Workshop d'ingresso all'anno 2027/2028.
+daConfermare:
+  - Data
+  - Orario
+  - Sede
+  - Posti
