@@ -120,7 +120,7 @@ export function verificaCatalogo(grezzo: Grezzo): Catalogo {
       verificaRiferimenti(`edizione "${e.id}"`, "docenti", e.docenti, idDocenti, problemi);
     }
     const corso = corsi.find((c) => c.id === e.corso);
-    if (corso?.gratuito && e.prezzo) {
+    if (corso?.gratuito && (e.prezzo || e.prezzoSoci)) {
       problemi.push(`edizione "${e.id}": il corso "${e.corso}" è gratuito ma l'edizione ha un prezzo`);
     }
     if (corso && !corso.gratuito && !corso.prezzo && !e.prezzo && !e.quotaDaConfermare) {
