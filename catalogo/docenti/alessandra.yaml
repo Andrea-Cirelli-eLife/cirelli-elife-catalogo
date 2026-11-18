@@ -1,6 +1,9 @@
 id: alessandra
-nome: Alessandra
-ruolo: Staff eLife
+# Nome, titolo e ruolo dal testo del team per l'open day del 16 gennaio 2027 (documento
+# di Cecilia del 18 novembre 2026). In /chi-siamo di elifelab.it è vice presidente.
+nome: Alessandra Bertelli
+titolo: Dott.ssa
+ruolo: Professionista della formazione e della Tripnosi
 daConfermare:
-  - Cognome, biografia e fotografia
+  - Biografia
   - Corsi condotti

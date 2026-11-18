@@ -7,7 +7,7 @@ id: open-day-scuola
 titolo: Open day della Scuola di Coaching
 famiglia: open-day
 ordine: 90
-# Il webinar dura un'ora e mezza; la durata del 16 gennaio non c'è ancora. Il numero di
+# Il webinar dura un'ora e mezza; il 16 gennaio un turno di due ore e mezza. Il numero di
 # giorni serve solo agli elenchi dei corsi, dove gli open day non compaiono.
 durataGiorni: 1
 durataNota: Un incontro gratuito, online o in presenza
@@ -15,4 +15,4 @@ gratuito: true
 docenti:
   - andrea-cirelli
 daConfermare:
-  - Testo di presentazione dell'open day (oggi è un testo provvisorio di VEDA)
+  - "Testo di presentazione del webinar del 17 dicembre (oggi è un testo provvisorio di VEDA; il 16 gennaio ha quello del team)"

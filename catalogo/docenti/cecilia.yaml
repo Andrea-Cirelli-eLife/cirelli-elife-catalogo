@@ -1,6 +1,10 @@
 id: cecilia
-nome: Cecilia
-ruolo: Staff eLife
+# Nome, titolo e ruolo dal testo del team per l'open day del 16 gennaio 2027 (documento
+# di Cecilia del 18 novembre 2026). In /chi-siamo di elifelab.it il ruolo è più lungo
+# («Direttrice organizzativa e della divulgazione»): qui quello del documento.
+nome: Cecilia Bertolazzi
+titolo: Dott.ssa
+ruolo: Direttrice della Scuola di Formazione eLife
 daConfermare:
-  - Cognome, biografia e fotografia
+  - Biografia
   - Corsi condotti

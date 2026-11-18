@@ -1,18 +1,21 @@
 id: 2027-01-16-open-day-scuola
 corso: open-day-scuola
-# Scheda eventi di Cecilia, 13 novembre 2026: «OPEN DAY», 16/01/2027, Brescia, conduce
-# il Dott. Andrea Cirelli. Orario, sede e programma non ci sono ancora (Dario, 16
-# novembre 2026: segnaposto evidente in pagina). Era già nel calendario 2026/2027 di
-# ottobre (call-staff-ottobre.md).
+# Scheda eventi di Cecilia, 13 novembre 2026: «OPEN DAY», 16/01/2027, Brescia. Sede,
+# turni e conduttori dal testo del team del 18 novembre 2026 («OPEN DAY 16 GENNAIO ·
+# WORKSHOP GRATUITO»): sede eLife in via Solferino 55, workshop la mattina (9:30-12:00)
+# o il pomeriggio (15:00-17:30), prove personali di 20 minuti 12:00-15:00 e
+# 17:30-19:00. L'orario non è un intervallo unico: i turni li scrive la landing.
 dal: 2027-01-16
 al: 2027-01-16
-sede: brescia
+sede: brescia-elife
 formato: presenza
 posti: 30
+docenti:
+  - andrea-cirelli
+  - cecilia
+  - alessandra
 stato: aperta
 urlIscrizione: https://www.elifelab.it/eventi/open-day-16-gennaio
 daConfermare:
-  - Orario
-  - Sede
-  - Programma
   - Posti
+  - "Prove personali: disponibilità e modalità (nota organizzativa del team, 18 novembre 2026)"
