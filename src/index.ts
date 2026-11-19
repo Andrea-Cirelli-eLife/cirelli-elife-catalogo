@@ -18,6 +18,7 @@ export const { corsi, edizioni, percorsi, sedi, docenti } = catalogo;
 export type { Catalogo, Grezzo } from "./verifica.ts";
 export { ErroreCatalogo, verificaCatalogo } from "./verifica.ts";
 export * from "./helpers.ts";
+export * from "./calendario.ts";
 export type {
   Corso,
   Docente,
