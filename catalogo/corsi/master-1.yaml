@@ -6,9 +6,10 @@ ordine: 10
 durataGiorni: 3
 # Scheda eventi di Cecilia, 13 novembre 2026: «750,00 + IVA». Il prezzo pubblico si
 # mostra finale, 915 € IVA inclusa, per il 5-7 dicembre e per il 16-18 luglio (Dario,
-# 16 novembre 2026). Dal 18 novembre 2026 si pubblica anche il prezzo soci, 675 €
-# (750 € meno il 10%, senza IVA aggiunta): lo calcola elifelab.it (Cecilia 16 e 18
-# novembre, Andrea 17 novembre). La promo «divulgazione» resta nella scheda.
+# 16 novembre 2026). Dal 18 novembre 2026 si pubblica anche il prezzo soci: la quota
+# senza IVA, 750 €, senza sconto, perché il 10% vale solo sui workshop (Cecilia,
+# WhatsApp 19 novembre 2026). Lo calcola elifelab.it. La promo «divulgazione» resta
+# nella scheda.
 prezzo:
   pieno: 750
   iva: esclusa

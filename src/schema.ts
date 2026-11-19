@@ -131,7 +131,7 @@ export const Edizione = z
     /** Override del prezzo di listino del corso, per edizioni fuori standard. */
     prezzo: Prezzo.optional(),
     /** La quota soci di questa edizione, in euro e senza IVA. Se c'è prevale sul calcolo
-        dei siti (quota senza IVA meno lo sconto soci, 18 novembre 2026). */
+        dei siti (quota senza IVA, meno il 10% solo sui workshop: 18 e 19 novembre 2026). */
     prezzoSoci: z.number().int().positive().optional(),
     /** Si pubblica senza quota perché lo staff non l'ha ancora data: le pagine non
         mostrano un prezzo. Senza questo campo un'edizione senza prezzo è un errore. */
