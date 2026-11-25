@@ -11,8 +11,16 @@ orario:
 formato: online
 # Capienza della piattaforma: la pagina non la mostra.
 posti: 100
+# Conduttori dal testo del team del 24 novembre 2026 («webinar 17: scaletta e
+# presentazione», condiviso da Cecilia): «Con Andrea Cirelli e Cecilia Bertolazzi».
+docenti:
+  - andrea-cirelli
+  - cecilia
 stato: aperta
 urlIscrizione: https://www.elifelab.it/eventi/open-day-17-dicembre
 daConfermare:
   - Piattaforma del webinar e invio del link
   - Numero massimo di partecipanti
+  - "Quaderno di viaggio: invio tre giorni prima dell'open day (14 dicembre), chi lo manda e come"
+  - "Colloquio di orientamento ed esperienza «Asta, Cerchio, Triangolo» per le prime dieci persone: come si prenotano"
+  - "Blocco finale della scaletta, 21:18-21:30 («La Scuola eLife e il colloquio di orientamento»): il documento si ferma a 78 minuti, il blocco è un raccordo di VEDA"
